@@ -1,0 +1,3 @@
+C:/Users/carlo/Documents/conan/contalinhas/Debug/CMakeFiles/contaloc.dir
+C:/Users/carlo/Documents/conan/contalinhas/Debug/CMakeFiles/ALL_BUILD.dir
+C:/Users/carlo/Documents/conan/contalinhas/Debug/CMakeFiles/ZERO_CHECK.dir
