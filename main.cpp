@@ -18,7 +18,7 @@ bool leFiltros()
     
     if (!inp) {
         cout << "Não pude abrir arquivo " << filtro << endl;
-        cout << "Se não existir, crie-o no diretório do programa e depois insira [extensoes] seguido pelas extensões de"
+        cout << "Se não existir, crie-o no diretório atual e depois insira [extensoes] seguido pelas extensões de"
             "arquivo para filtra, uma por linha" << endl;
         return false;
     }
@@ -82,6 +82,7 @@ void buscarDiretorio(const fs::path& caminho)
 {
     cout << "Buscando diretório " << caminho << endl;
     fs::directory_iterator iter(caminho);
+    
     for(auto& p : iter)
     {
         if (fs::is_regular_file(p)) {
