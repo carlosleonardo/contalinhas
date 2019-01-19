@@ -2,6 +2,7 @@
 #include <fstream>
 #include <string>
 #include <list>
+#include <stack>
 #include <boost/filesystem.hpp>
 
 using namespace std;
@@ -77,6 +78,32 @@ void contalinhas(const fs::path& caminho)
     nLinhasTotais += nLinhas;
 }
 
+void buscarDiretorioIterativo(const fs::path& caminhoBase)
+{
+    cout << "Buscando diretório " << caminhoBase << endl;
+    stack<fs::path> pastas;
+    fs::path caminhoAtual;
+
+    pastas.push(caminhoBase);
+
+    while (!pastas.empty())
+    {   
+        caminhoAtual = pastas.top();
+        pastas.pop();
+
+        fs::directory_iterator iter(caminhoAtual);
+        
+        for(auto& p : iter)
+        {
+            if (fs::is_regular_file(p)) {
+                contalinhas(p);
+            } else if (fs::is_directory(p))
+            {
+                pastas.push(p);
+            }
+        }
+    }
+}
 
 void buscarDiretorio(const fs::path& caminho)
 {
@@ -86,7 +113,6 @@ void buscarDiretorio(const fs::path& caminho)
     for(auto& p : iter)
     {
         if (fs::is_regular_file(p)) {
-            
             contalinhas(p);
         } else if (fs::is_directory(p))
         {
@@ -101,14 +127,14 @@ int main(int argc, char** argv)
     locale::global(std::locale("pt_BR.utf8"));
     cout.imbue(std::locale());
     if (argc==1) {
-        cout << "Informe diretório inicial do código fonte\n";
+        cout << "Forma de uso: " << argv[0] << " <diretório-base>" << "\n";
         return -1;
     }
     
     if (leFiltros()) {
         if (fs::exists(argv[1])) {
             nLinhasTotais = 0;
-            buscarDiretorio(argv[1]);
+            buscarDiretorioIterativo(argv[1]);
         }
         cout << "Total LOC: " << nLinhasTotais << endl;
     }
