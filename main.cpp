@@ -124,8 +124,10 @@ void buscarDiretorio(const fs::path& caminho)
 
 int main(int argc, char** argv)
 {
+#ifdef WIN32
     locale::global(std::locale("pt_BR.utf8"));
     cout.imbue(std::locale());
+#endif
     if (argc==1) {
         cout << "Forma de uso: " << argv[0] << " <diretório-base>" << "\n";
         return -1;
