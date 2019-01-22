@@ -1,17 +1,15 @@
 include(CMakeParseArguments)
-set(CONAN_BOOST_ROOT "C:/.conan/vchclxu6/1")
-set(CONAN_INCLUDE_DIRS_BOOST "C:/.conan/vchclxu6/1/include")
-set(CONAN_LIB_DIRS_BOOST "C:/.conan/vchclxu6/1/lib")
+set(CONAN_BOOST_ROOT "/home/86132113568/.conan/data/boost/1.69.0/conan/stable/package/07bf35b328b244e0494c363fa36767111a1b9d08")
+set(CONAN_INCLUDE_DIRS_BOOST "/home/86132113568/.conan/data/boost/1.69.0/conan/stable/package/07bf35b328b244e0494c363fa36767111a1b9d08/include")
+set(CONAN_LIB_DIRS_BOOST "/home/86132113568/.conan/data/boost/1.69.0/conan/stable/package/07bf35b328b244e0494c363fa36767111a1b9d08/lib")
 set(CONAN_BIN_DIRS_BOOST )
 set(CONAN_RES_DIRS_BOOST )
 set(CONAN_SRC_DIRS_BOOST )
-set(CONAN_BUILD_DIRS_BOOST "C:/.conan/vchclxu6/1/")
-set(CONAN_LIBS_BOOST boost_wave boost_container boost_contract boost_exception boost_graph boost_iostreams boost_locale boost_log boost_program_options boost_random boost_regex boost_serialization boost_wserialization boost_coroutine boost_fiber boost_context boost_timer boost_thread boost_chrono boost_date_time boost_atomic boost_filesystem boost_system boost_type_erasure boost_log_setup boost_math_c99 boost_math_c99f boost_math_c99l boost_math_tr1 boost_math_tr1f boost_math_tr1l boost_stacktrace_noop boost_stacktrace_windbg boost_stacktrace_windbg_cached boost_unit_test_framework bcrypt)
-set(CONAN_DEFINES_BOOST "-DBOOST_USE_STATIC_LIBS"
-			"-DBOOST_ALL_NO_LIB")
+set(CONAN_BUILD_DIRS_BOOST "/home/86132113568/.conan/data/boost/1.69.0/conan/stable/package/07bf35b328b244e0494c363fa36767111a1b9d08/")
+set(CONAN_LIBS_BOOST boost_wave boost_container boost_contract boost_exception boost_graph boost_iostreams boost_locale boost_log boost_program_options boost_random boost_regex boost_wserialization boost_serialization boost_coroutine boost_fiber boost_context boost_timer boost_thread boost_chrono boost_date_time boost_atomic boost_filesystem boost_system boost_type_erasure boost_math_c99l boost_math_tr1 boost_stacktrace_backtrace boost_math_tr1f boost_math_c99f boost_math_c99 boost_stacktrace_noop boost_log_setup boost_stacktrace_addr2line boost_unit_test_framework boost_stacktrace_basic boost_math_tr1l pthread)
+set(CONAN_DEFINES_BOOST "-DBOOST_USE_STATIC_LIBS")
 # COMPILE_DEFINITIONS are equal to CONAN_DEFINES without -D, for targets
-set(CONAN_COMPILE_DEFINITIONS_BOOST "BOOST_USE_STATIC_LIBS"
-			"BOOST_ALL_NO_LIB")
+set(CONAN_COMPILE_DEFINITIONS_BOOST "BOOST_USE_STATIC_LIBS")
 
 set(CONAN_C_FLAGS_BOOST "")
 set(CONAN_CXX_FLAGS_BOOST "")
@@ -25,13 +23,13 @@ set(CONAN_SHARED_LINKER_FLAGS_BOOST_LIST "")
 set(CONAN_EXE_LINKER_FLAGS_BOOST_LIST "")
 
 
-set(CONAN_BZIP2_ROOT "C:/Users/carlo/.conan/data/bzip2/1.0.6/conan/stable/package/8cf01e2f50fcd6b63525e70584df0326550364e1")
-set(CONAN_INCLUDE_DIRS_BZIP2 "C:/Users/carlo/.conan/data/bzip2/1.0.6/conan/stable/package/8cf01e2f50fcd6b63525e70584df0326550364e1/include")
-set(CONAN_LIB_DIRS_BZIP2 "C:/Users/carlo/.conan/data/bzip2/1.0.6/conan/stable/package/8cf01e2f50fcd6b63525e70584df0326550364e1/lib")
-set(CONAN_BIN_DIRS_BZIP2 "C:/Users/carlo/.conan/data/bzip2/1.0.6/conan/stable/package/8cf01e2f50fcd6b63525e70584df0326550364e1/bin")
+set(CONAN_BZIP2_ROOT "/home/86132113568/.conan/data/bzip2/1.0.6/conan/stable/package/db2ca884c9793e0b0fb54ec3f846326d1addacc8")
+set(CONAN_INCLUDE_DIRS_BZIP2 "/home/86132113568/.conan/data/bzip2/1.0.6/conan/stable/package/db2ca884c9793e0b0fb54ec3f846326d1addacc8/include")
+set(CONAN_LIB_DIRS_BZIP2 "/home/86132113568/.conan/data/bzip2/1.0.6/conan/stable/package/db2ca884c9793e0b0fb54ec3f846326d1addacc8/lib")
+set(CONAN_BIN_DIRS_BZIP2 "/home/86132113568/.conan/data/bzip2/1.0.6/conan/stable/package/db2ca884c9793e0b0fb54ec3f846326d1addacc8/bin")
 set(CONAN_RES_DIRS_BZIP2 )
 set(CONAN_SRC_DIRS_BZIP2 )
-set(CONAN_BUILD_DIRS_BZIP2 "C:/Users/carlo/.conan/data/bzip2/1.0.6/conan/stable/package/8cf01e2f50fcd6b63525e70584df0326550364e1/")
+set(CONAN_BUILD_DIRS_BZIP2 "/home/86132113568/.conan/data/bzip2/1.0.6/conan/stable/package/db2ca884c9793e0b0fb54ec3f846326d1addacc8/")
 set(CONAN_LIBS_BZIP2 bz2)
 set(CONAN_DEFINES_BZIP2 )
 # COMPILE_DEFINITIONS are equal to CONAN_DEFINES without -D, for targets
@@ -49,14 +47,14 @@ set(CONAN_SHARED_LINKER_FLAGS_BZIP2_LIST "")
 set(CONAN_EXE_LINKER_FLAGS_BZIP2_LIST "")
 
 
-set(CONAN_ZLIB_ROOT "C:/Users/carlo/.conan/data/zlib/1.2.11/conan/stable/package/8cf01e2f50fcd6b63525e70584df0326550364e1")
-set(CONAN_INCLUDE_DIRS_ZLIB "C:/Users/carlo/.conan/data/zlib/1.2.11/conan/stable/package/8cf01e2f50fcd6b63525e70584df0326550364e1/include")
-set(CONAN_LIB_DIRS_ZLIB "C:/Users/carlo/.conan/data/zlib/1.2.11/conan/stable/package/8cf01e2f50fcd6b63525e70584df0326550364e1/lib")
+set(CONAN_ZLIB_ROOT "/home/86132113568/.conan/data/zlib/1.2.11/conan/stable/package/db2ca884c9793e0b0fb54ec3f846326d1addacc8")
+set(CONAN_INCLUDE_DIRS_ZLIB "/home/86132113568/.conan/data/zlib/1.2.11/conan/stable/package/db2ca884c9793e0b0fb54ec3f846326d1addacc8/include")
+set(CONAN_LIB_DIRS_ZLIB "/home/86132113568/.conan/data/zlib/1.2.11/conan/stable/package/db2ca884c9793e0b0fb54ec3f846326d1addacc8/lib")
 set(CONAN_BIN_DIRS_ZLIB )
 set(CONAN_RES_DIRS_ZLIB )
 set(CONAN_SRC_DIRS_ZLIB )
-set(CONAN_BUILD_DIRS_ZLIB "C:/Users/carlo/.conan/data/zlib/1.2.11/conan/stable/package/8cf01e2f50fcd6b63525e70584df0326550364e1/")
-set(CONAN_LIBS_ZLIB zlib)
+set(CONAN_BUILD_DIRS_ZLIB "/home/86132113568/.conan/data/zlib/1.2.11/conan/stable/package/db2ca884c9793e0b0fb54ec3f846326d1addacc8/")
+set(CONAN_LIBS_ZLIB z)
 set(CONAN_DEFINES_ZLIB )
 # COMPILE_DEFINITIONS are equal to CONAN_DEFINES without -D, for targets
 set(CONAN_COMPILE_DEFINITIONS_ZLIB )
@@ -82,11 +80,11 @@ set(CONAN_PACKAGE_VERSION None)
 set(CONAN_SETTINGS_ARCH "x86_64")
 set(CONAN_SETTINGS_ARCH_BUILD "x86_64")
 set(CONAN_SETTINGS_BUILD_TYPE "Debug")
-set(CONAN_SETTINGS_COMPILER "Visual Studio")
-set(CONAN_SETTINGS_COMPILER_RUNTIME "MDd")
-set(CONAN_SETTINGS_COMPILER_VERSION "15")
-set(CONAN_SETTINGS_OS "Windows")
-set(CONAN_SETTINGS_OS_BUILD "Windows")
+set(CONAN_SETTINGS_COMPILER "gcc")
+set(CONAN_SETTINGS_COMPILER_LIBCXX "libstdc++")
+set(CONAN_SETTINGS_COMPILER_VERSION "7")
+set(CONAN_SETTINGS_OS "Linux")
+set(CONAN_SETTINGS_OS_BUILD "Linux")
 
 set(CONAN_DEPENDENCIES boost bzip2 zlib)
 # Storing original command line args (CMake helper) flags
@@ -96,20 +94,19 @@ set(CONAN_CMD_SHARED_LINKER_FLAGS ${CONAN_SHARED_LINKER_FLAGS})
 set(CONAN_CMD_C_FLAGS ${CONAN_C_FLAGS})
 # Defining accumulated conan variables for all deps
 
-set(CONAN_INCLUDE_DIRS "C:/.conan/vchclxu6/1/include"
-			"C:/Users/carlo/.conan/data/bzip2/1.0.6/conan/stable/package/8cf01e2f50fcd6b63525e70584df0326550364e1/include"
-			"C:/Users/carlo/.conan/data/zlib/1.2.11/conan/stable/package/8cf01e2f50fcd6b63525e70584df0326550364e1/include" ${CONAN_INCLUDE_DIRS})
-set(CONAN_LIB_DIRS "C:/.conan/vchclxu6/1/lib"
-			"C:/Users/carlo/.conan/data/bzip2/1.0.6/conan/stable/package/8cf01e2f50fcd6b63525e70584df0326550364e1/lib"
-			"C:/Users/carlo/.conan/data/zlib/1.2.11/conan/stable/package/8cf01e2f50fcd6b63525e70584df0326550364e1/lib" ${CONAN_LIB_DIRS})
-set(CONAN_BIN_DIRS "C:/Users/carlo/.conan/data/bzip2/1.0.6/conan/stable/package/8cf01e2f50fcd6b63525e70584df0326550364e1/bin" ${CONAN_BIN_DIRS})
+set(CONAN_INCLUDE_DIRS "/home/86132113568/.conan/data/boost/1.69.0/conan/stable/package/07bf35b328b244e0494c363fa36767111a1b9d08/include"
+			"/home/86132113568/.conan/data/bzip2/1.0.6/conan/stable/package/db2ca884c9793e0b0fb54ec3f846326d1addacc8/include"
+			"/home/86132113568/.conan/data/zlib/1.2.11/conan/stable/package/db2ca884c9793e0b0fb54ec3f846326d1addacc8/include" ${CONAN_INCLUDE_DIRS})
+set(CONAN_LIB_DIRS "/home/86132113568/.conan/data/boost/1.69.0/conan/stable/package/07bf35b328b244e0494c363fa36767111a1b9d08/lib"
+			"/home/86132113568/.conan/data/bzip2/1.0.6/conan/stable/package/db2ca884c9793e0b0fb54ec3f846326d1addacc8/lib"
+			"/home/86132113568/.conan/data/zlib/1.2.11/conan/stable/package/db2ca884c9793e0b0fb54ec3f846326d1addacc8/lib" ${CONAN_LIB_DIRS})
+set(CONAN_BIN_DIRS "/home/86132113568/.conan/data/bzip2/1.0.6/conan/stable/package/db2ca884c9793e0b0fb54ec3f846326d1addacc8/bin" ${CONAN_BIN_DIRS})
 set(CONAN_RES_DIRS  ${CONAN_RES_DIRS})
-set(CONAN_LIBS boost_wave boost_container boost_contract boost_exception boost_graph boost_iostreams boost_locale boost_log boost_program_options boost_random boost_regex boost_serialization boost_wserialization boost_coroutine boost_fiber boost_context boost_timer boost_thread boost_chrono boost_date_time boost_atomic boost_filesystem boost_system boost_type_erasure boost_log_setup boost_math_c99 boost_math_c99f boost_math_c99l boost_math_tr1 boost_math_tr1f boost_math_tr1l boost_stacktrace_noop boost_stacktrace_windbg boost_stacktrace_windbg_cached boost_unit_test_framework bcrypt bz2 zlib ${CONAN_LIBS})
-set(CONAN_DEFINES "-DBOOST_USE_STATIC_LIBS"
-			"-DBOOST_ALL_NO_LIB" ${CONAN_DEFINES})
-set(CONAN_CMAKE_MODULE_PATH "C:/.conan/vchclxu6/1/"
-			"C:/Users/carlo/.conan/data/bzip2/1.0.6/conan/stable/package/8cf01e2f50fcd6b63525e70584df0326550364e1/"
-			"C:/Users/carlo/.conan/data/zlib/1.2.11/conan/stable/package/8cf01e2f50fcd6b63525e70584df0326550364e1/" ${CONAN_CMAKE_MODULE_PATH})
+set(CONAN_LIBS boost_wave boost_container boost_contract boost_exception boost_graph boost_iostreams boost_locale boost_log boost_program_options boost_random boost_regex boost_wserialization boost_serialization boost_coroutine boost_fiber boost_context boost_timer boost_thread boost_chrono boost_date_time boost_atomic boost_filesystem boost_system boost_type_erasure boost_math_c99l boost_math_tr1 boost_stacktrace_backtrace boost_math_tr1f boost_math_c99f boost_math_c99 boost_stacktrace_noop boost_log_setup boost_stacktrace_addr2line boost_unit_test_framework boost_stacktrace_basic boost_math_tr1l pthread bz2 z ${CONAN_LIBS})
+set(CONAN_DEFINES "-DBOOST_USE_STATIC_LIBS" ${CONAN_DEFINES})
+set(CONAN_CMAKE_MODULE_PATH "/home/86132113568/.conan/data/boost/1.69.0/conan/stable/package/07bf35b328b244e0494c363fa36767111a1b9d08/"
+			"/home/86132113568/.conan/data/bzip2/1.0.6/conan/stable/package/db2ca884c9793e0b0fb54ec3f846326d1addacc8/"
+			"/home/86132113568/.conan/data/zlib/1.2.11/conan/stable/package/db2ca884c9793e0b0fb54ec3f846326d1addacc8/" ${CONAN_CMAKE_MODULE_PATH})
 
 set(CONAN_CXX_FLAGS " ${CONAN_CXX_FLAGS}")
 set(CONAN_SHARED_LINKER_FLAGS " ${CONAN_SHARED_LINKER_FLAGS}")

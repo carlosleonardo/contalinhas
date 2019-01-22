@@ -91,16 +91,22 @@ void buscarDiretorioIterativo(const fs::path& caminhoBase)
         caminhoAtual = pastas.top();
         pastas.pop();
 
-        fs::directory_iterator iter(caminhoAtual);
-        
-        for(auto& p : iter)
-        {
-            if (fs::is_regular_file(p)) {
-                contalinhas(p);
-            } else if (fs::is_directory(p))
+        try {
+            fs::directory_iterator iter(caminhoAtual);
+            
+            for(auto& p : iter)
             {
-                pastas.push(p);
+                if (fs::is_regular_file(p)) {
+                    contalinhas(p);
+                } else if (fs::is_directory(p))
+                {
+                    pastas.push(p);
+                }
             }
+        }
+        catch(std::exception& e)
+        {
+            cerr << e.what() << endl;
         }
     }
 }

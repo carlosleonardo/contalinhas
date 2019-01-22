@@ -1,358 +1,362 @@
-The system is: Windows - 10.0.17763 - AMD64
+The system is: Linux - 4.4.0-104-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler:  
+Compiler: /usr/bin/cc 
 Build flags: 
-Id flags:  
+Id flags: 
 
 The output was:
 0
-Microsoft(R) Build Engine vers�o 15.9.21+g9802d43bc3 para .NET Framework 
-Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-
-Compila��o de 16/01/2019 18:39:42 iniciada.
-Projeto "C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\3.13.2\CompilerIdC\CompilerIdC.vcxproj" no n� 1 (destinos padr�o).
-PrepareForBuild:
-  Criando o diret�rio "Debug\".
-  Criando o diret�rio "Debug\CompilerIdC.tlog\".
-InitializeBuildStatus:
-  Criando "Debug\CompilerIdC.tlog\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-VcpkgTripletSelection:
-  Using triplet "x86-windows" from "C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\"
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /I"C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\include" /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
-  CMakeCCompilerId.c
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
-  CompilerIdC.vcxproj -> C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\3.13.2\CompilerIdC\.\CompilerIdC.exe
-AppLocalFromInstalled:
-  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "C:\Users\carlo\Documents\packages\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\3.13.2\CompilerIdC\.\CompilerIdC.exe" "C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\debug\bin" "Debug\CompilerIdC.tlog\CompilerIdC.write.1u.tlog" "Debug\vcpkg.applocal.log"
-PostBuildEvent:
-  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
-  :VCEnd
-  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe
-FinalizeBuildStatus:
-  Excluindo o arquivo "Debug\CompilerIdC.tlog\unsuccessfulbuild".
-  Tocando "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
-Projeto de compila��o pronto "C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\3.13.2\CompilerIdC\CompilerIdC.vcxproj" (destinos padr�o).
-
-Compila��o com �xito.
-    0 Aviso(s)
-    0 Erro(s)
-
-Tempo Decorrido 00:00:14.99
 
 
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
-
-The C compiler identification is MSVC, found in "C:/Users/carlo/Documents/conan/contalinhas/Debug/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.exe"
+The C compiler identification is GNU, found in "/home/86132113568/cpp/contalinhas/Debug/CMakeFiles/3.5.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler:  
+Compiler: /usr/bin/c++ 
 Build flags: 
-Id flags:  
+Id flags: 
 
 The output was:
 0
-Microsoft(R) Build Engine vers�o 15.9.21+g9802d43bc3 para .NET Framework 
-Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-
-Compila��o de 16/01/2019 18:39:58 iniciada.
-Projeto "C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\3.13.2\CompilerIdCXX\CompilerIdCXX.vcxproj" no n� 1 (destinos padr�o).
-PrepareForBuild:
-  Criando o diret�rio "Debug\".
-  Criando o diret�rio "Debug\CompilerIdCXX.tlog\".
-InitializeBuildStatus:
-  Criando "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-VcpkgTripletSelection:
-  Using triplet "x86-windows" from "C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\"
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /I"C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\include" /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
-  CMakeCXXCompilerId.cpp
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
-  CompilerIdCXX.vcxproj -> C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\3.13.2\CompilerIdCXX\.\CompilerIdCXX.exe
-AppLocalFromInstalled:
-  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "C:\Users\carlo\Documents\packages\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\3.13.2\CompilerIdCXX\.\CompilerIdCXX.exe" "C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\debug\bin" "Debug\CompilerIdCXX.tlog\CompilerIdCXX.write.1u.tlog" "Debug\vcpkg.applocal.log"
-PostBuildEvent:
-  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
-  :VCEnd
-  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe
-FinalizeBuildStatus:
-  Excluindo o arquivo "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
-  Tocando "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
-Projeto de compila��o pronto "C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\3.13.2\CompilerIdCXX\CompilerIdCXX.vcxproj" (destinos padr�o).
-
-Compila��o com �xito.
-    0 Aviso(s)
-    0 Erro(s)
-
-Tempo Decorrido 00:00:09.89
 
 
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
-
-The CXX compiler identification is MSVC, found in "C:/Users/carlo/Documents/conan/contalinhas/Debug/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.exe"
+The CXX compiler identification is GNU, found in "/home/86132113568/cpp/contalinhas/Debug/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: C:/Users/carlo/Documents/conan/contalinhas/Debug/CMakeFiles/CMakeTmp
+Change Dir: /home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_1e9d8.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
-Microsoft(R) Build Engine versão 15.9.21+g9802d43bc3 para .NET Framework 
-Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-
-Compilação de 16/01/2019 18:40:11 iniciada.
-Projeto "C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\cmTC_1e9d8.vcxproj" no nó 1 (destinos padrão).
-PrepareForBuild:
-  Criando o diretório "cmTC_1e9d8.dir\Debug\".
-  Criando o diretório "C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\Debug\".
-  Criando o diretório "cmTC_1e9d8.dir\Debug\cmTC_1e9d8.tlog\".
-InitializeBuildStatus:
-  Criando "cmTC_1e9d8.dir\Debug\cmTC_1e9d8.tlog\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-VcpkgTripletSelection:
-  Using triplet "x86-windows" from "C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\"
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /I"C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1e9d8.dir\Debug\\" /Fd"cmTC_1e9d8.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\testCCompiler.c
-  Microsoft (R) C/C++ Optimizing Compiler Versão 19.16.27026.1 para x86
-  Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-  
-  testCCompiler.c
-  cl /c /I"C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1e9d8.dir\Debug\\" /Fd"cmTC_1e9d8.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\testCCompiler.c
-  
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\Debug\cmTC_1e9d8.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/carlo/Documents/conan/contalinhas/Debug/CMakeFiles/CMakeTmp/Debug/cmTC_1e9d8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/carlo/Documents/conan/contalinhas/Debug/CMakeFiles/CMakeTmp/Debug/cmTC_1e9d8.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_1e9d8.dir\Debug\testCCompiler.obj
-  cmTC_1e9d8.vcxproj -> C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\Debug\cmTC_1e9d8.exe
-AppLocalFromInstalled:
-  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "C:\Users\carlo\Documents\packages\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\Debug\cmTC_1e9d8.exe" "C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\debug\bin" "cmTC_1e9d8.dir\Debug\cmTC_1e9d8.tlog\cmTC_1e9d8.write.1u.tlog" "cmTC_1e9d8.dir\Debug\vcpkg.applocal.log"
-FinalizeBuildStatus:
-  Excluindo o arquivo "cmTC_1e9d8.dir\Debug\cmTC_1e9d8.tlog\unsuccessfulbuild".
-  Tocando "cmTC_1e9d8.dir\Debug\cmTC_1e9d8.tlog\cmTC_1e9d8.lastbuildstate".
-Projeto de compilação pronto "C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\cmTC_1e9d8.vcxproj" (destinos padrão).
-
-Compilação com êxito.
-    0 Aviso(s)
-    0 Erro(s)
-
-Tempo Decorrido 00:00:10.67
+Run Build Command:"/usr/bin/make" "cmTC_b26a8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b26a8.dir/build.make CMakeFiles/cmTC_b26a8.dir/build
+make[1]: Entering directory '/home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b26a8.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_b26a8.dir/testCCompiler.c.o   -c /home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_b26a8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b26a8.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_b26a8.dir/testCCompiler.c.o  -o cmTC_b26a8 
+make[1]: Leaving directory '/home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/carlo/Documents/conan/contalinhas/Debug/CMakeFiles/CMakeTmp
+Change Dir: /home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_cbd4d.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
-Microsoft(R) Build Engine versão 15.9.21+g9802d43bc3 para .NET Framework 
-Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-
-Compilação de 16/01/2019 18:40:23 iniciada.
-Projeto "C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\cmTC_cbd4d.vcxproj" no nó 1 (destinos padrão).
-PrepareForBuild:
-  Criando o diretório "cmTC_cbd4d.dir\Debug\".
-  Criando o diretório "C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\Debug\".
-  Criando o diretório "cmTC_cbd4d.dir\Debug\cmTC_cbd4d.tlog\".
-InitializeBuildStatus:
-  Criando "cmTC_cbd4d.dir\Debug\cmTC_cbd4d.tlog\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-VcpkgTripletSelection:
-  Using triplet "x86-windows" from "C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\"
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /I"C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cbd4d.dir\Debug\\" /Fd"cmTC_cbd4d.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c"
-  Microsoft (R) C/C++ Optimizing Compiler Versão 19.16.27026.1 para x86
-  Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-  
-  cl /c /I"C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cbd4d.dir\Debug\\" /Fd"cmTC_cbd4d.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c"
-  CMakeCCompilerABI.c
-  
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\Debug\cmTC_cbd4d.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/carlo/Documents/conan/contalinhas/Debug/CMakeFiles/CMakeTmp/Debug/cmTC_cbd4d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/carlo/Documents/conan/contalinhas/Debug/CMakeFiles/CMakeTmp/Debug/cmTC_cbd4d.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_cbd4d.dir\Debug\CMakeCCompilerABI.obj
-  cmTC_cbd4d.vcxproj -> C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\Debug\cmTC_cbd4d.exe
-AppLocalFromInstalled:
-  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "C:\Users\carlo\Documents\packages\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\Debug\cmTC_cbd4d.exe" "C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\debug\bin" "cmTC_cbd4d.dir\Debug\cmTC_cbd4d.tlog\cmTC_cbd4d.write.1u.tlog" "cmTC_cbd4d.dir\Debug\vcpkg.applocal.log"
-FinalizeBuildStatus:
-  Excluindo o arquivo "cmTC_cbd4d.dir\Debug\cmTC_cbd4d.tlog\unsuccessfulbuild".
-  Tocando "cmTC_cbd4d.dir\Debug\cmTC_cbd4d.tlog\cmTC_cbd4d.lastbuildstate".
-Projeto de compilação pronto "C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\cmTC_cbd4d.vcxproj" (destinos padrão).
-
-Compilação com êxito.
-    0 Aviso(s)
-    0 Erro(s)
-
-Tempo Decorrido 00:00:11.22
+Run Build Command:"/usr/bin/make" "cmTC_b6e85/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b6e85.dir/build.make CMakeFiles/cmTC_b6e85.dir/build
+make[1]: Entering directory '/home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6e85.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_b6e85.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_b6e85
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6e85.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_b6e85.dir/CMakeCCompilerABI.c.o  -o cmTC_b6e85  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.3.0-21ubuntu1~16.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.3.0 (Ubuntu 7.3.0-21ubuntu1~16.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b6e85' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9angtC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_b6e85 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_b6e85.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b6e85' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp'
 
 
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b6e85/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b6e85.dir/build.make CMakeFiles/cmTC_b6e85.dir/build]
+  ignore line: [make[1]: Entering directory '/home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_b6e85.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_b6e85.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_b6e85]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6e85.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_b6e85.dir/CMakeCCompilerABI.c.o  -o cmTC_b6e85  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.3.0-21ubuntu1~16.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (Ubuntu 7.3.0-21ubuntu1~16.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b6e85' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9angtC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_b6e85 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_b6e85.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc9angtC.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b6e85] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_b6e85.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
 
 
-Detecting C [] compiler features compiled with the following output:
-Change Dir: C:/Users/carlo/Documents/conan/contalinhas/Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_89ffb.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
-Microsoft(R) Build Engine versão 15.9.21+g9802d43bc3 para .NET Framework 
-Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-
-Compilação de 16/01/2019 18:40:36 iniciada.
-Projeto "C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\cmTC_89ffb.vcxproj" no nó 1 (destinos padrão).
-PrepareForBuild:
-  Criando o diretório "cmTC_89ffb.dir\Debug\".
-  Criando o diretório "C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\Debug\".
-  Criando o diretório "cmTC_89ffb.dir\Debug\cmTC_89ffb.tlog\".
-InitializeBuildStatus:
-  Criando "cmTC_89ffb.dir\Debug\cmTC_89ffb.tlog\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-VcpkgTripletSelection:
-  Using triplet "x86-windows" from "C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\"
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /I"C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_89ffb.dir\Debug\\" /Fd"cmTC_89ffb.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\feature_tests.c
-  Microsoft (R) C/C++ Optimizing Compiler Versão 19.16.27026.1 para x86
-  Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-  
-  cl /c /I"C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_89ffb.dir\Debug\\" /Fd"cmTC_89ffb.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\feature_tests.c
-  
-  feature_tests.c
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\Debug\cmTC_89ffb.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/carlo/Documents/conan/contalinhas/Debug/CMakeFiles/CMakeTmp/Debug/cmTC_89ffb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/carlo/Documents/conan/contalinhas/Debug/CMakeFiles/CMakeTmp/Debug/cmTC_89ffb.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_89ffb.dir\Debug\feature_tests.obj
-  cmTC_89ffb.vcxproj -> C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\Debug\cmTC_89ffb.exe
-AppLocalFromInstalled:
-  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "C:\Users\carlo\Documents\packages\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\Debug\cmTC_89ffb.exe" "C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\debug\bin" "cmTC_89ffb.dir\Debug\cmTC_89ffb.tlog\cmTC_89ffb.write.1u.tlog" "cmTC_89ffb.dir\Debug\vcpkg.applocal.log"
-FinalizeBuildStatus:
-  Excluindo o arquivo "cmTC_89ffb.dir\Debug\cmTC_89ffb.tlog\unsuccessfulbuild".
-  Tocando "cmTC_89ffb.dir\Debug\cmTC_89ffb.tlog\cmTC_89ffb.lastbuildstate".
-Projeto de compilação pronto "C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\cmTC_89ffb.vcxproj" (destinos padrão).
-
-Compilação com êxito.
-    0 Aviso(s)
-    0 Erro(s)
-
-Tempo Decorrido 00:00:10.12
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_78482/fast"
+/usr/bin/make -f CMakeFiles/cmTC_78482.dir/build.make CMakeFiles/cmTC_78482.dir/build
+make[1]: Entering directory '/home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_78482.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_78482.dir/feature_tests.c.o   -c /home/86132113568/cpp/contalinhas/Debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_78482
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78482.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_78482.dir/feature_tests.c.o  -o cmTC_78482 
+make[1]: Leaving directory '/home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
     Feature record: C_FEATURE:1c_variadic_macros
-Determining if the CXX compiler works passed with the following output:
-Change Dir: C:/Users/carlo/Documents/conan/contalinhas/Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_b9875.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
-Microsoft(R) Build Engine versão 15.9.21+g9802d43bc3 para .NET Framework 
-Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-
-Compilação de 16/01/2019 18:40:49 iniciada.
-Projeto "C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\cmTC_b9875.vcxproj" no nó 1 (destinos padrão).
-PrepareForBuild:
-  Criando o diretório "cmTC_b9875.dir\Debug\".
-  Criando o diretório "C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\Debug\".
-  Criando o diretório "cmTC_b9875.dir\Debug\cmTC_b9875.tlog\".
-InitializeBuildStatus:
-  Criando "cmTC_b9875.dir\Debug\cmTC_b9875.tlog\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-VcpkgTripletSelection:
-  Using triplet "x86-windows" from "C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\"
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /I"C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b9875.dir\Debug\\" /Fd"cmTC_b9875.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
-  Microsoft (R) C/C++ Optimizing Compiler Versão 19.16.27026.1 para x86
-  Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-  
-  cl /c /I"C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b9875.dir\Debug\\" /Fd"cmTC_b9875.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
-  testCXXCompiler.cxx
-  
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\Debug\cmTC_b9875.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/carlo/Documents/conan/contalinhas/Debug/CMakeFiles/CMakeTmp/Debug/cmTC_b9875.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/carlo/Documents/conan/contalinhas/Debug/CMakeFiles/CMakeTmp/Debug/cmTC_b9875.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_b9875.dir\Debug\testCXXCompiler.obj
-  cmTC_b9875.vcxproj -> C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\Debug\cmTC_b9875.exe
-AppLocalFromInstalled:
-  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "C:\Users\carlo\Documents\packages\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\Debug\cmTC_b9875.exe" "C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\debug\bin" "cmTC_b9875.dir\Debug\cmTC_b9875.tlog\cmTC_b9875.write.1u.tlog" "cmTC_b9875.dir\Debug\vcpkg.applocal.log"
-FinalizeBuildStatus:
-  Excluindo o arquivo "cmTC_b9875.dir\Debug\cmTC_b9875.tlog\unsuccessfulbuild".
-  Tocando "cmTC_b9875.dir\Debug\cmTC_b9875.tlog\cmTC_b9875.lastbuildstate".
-Projeto de compilação pronto "C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\cmTC_b9875.vcxproj" (destinos padrão).
-
-Compilação com êxito.
-    0 Aviso(s)
-    0 Erro(s)
-
-Tempo Decorrido 00:00:12.82
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1ec1f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1ec1f.dir/build.make CMakeFiles/cmTC_1ec1f.dir/build
+make[1]: Entering directory '/home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1ec1f.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_1ec1f.dir/feature_tests.c.o   -c /home/86132113568/cpp/contalinhas/Debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1ec1f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ec1f.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_1ec1f.dir/feature_tests.c.o  -o cmTC_1ec1f 
+make[1]: Leaving directory '/home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2b6c8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2b6c8.dir/build.make CMakeFiles/cmTC_2b6c8.dir/build
+make[1]: Entering directory '/home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2b6c8.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_2b6c8.dir/feature_tests.c.o   -c /home/86132113568/cpp/contalinhas/Debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_2b6c8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b6c8.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_2b6c8.dir/feature_tests.c.o  -o cmTC_2b6c8 
+make[1]: Leaving directory '/home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9101a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9101a.dir/build.make CMakeFiles/cmTC_9101a.dir/build
+make[1]: Entering directory '/home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9101a.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_9101a.dir/testCXXCompiler.cxx.o -c /home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_9101a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9101a.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_9101a.dir/testCXXCompiler.cxx.o  -o cmTC_9101a 
+make[1]: Leaving directory '/home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/carlo/Documents/conan/contalinhas/Debug/CMakeFiles/CMakeTmp
+Change Dir: /home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_33d79.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
-Microsoft(R) Build Engine versão 15.9.21+g9802d43bc3 para .NET Framework 
-Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-
-Compilação de 16/01/2019 18:41:06 iniciada.
-Projeto "C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\cmTC_33d79.vcxproj" no nó 1 (destinos padrão).
-PrepareForBuild:
-  Criando o diretório "cmTC_33d79.dir\Debug\".
-  Criando o diretório "C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\Debug\".
-  Criando o diretório "cmTC_33d79.dir\Debug\cmTC_33d79.tlog\".
-InitializeBuildStatus:
-  Criando "cmTC_33d79.dir\Debug\cmTC_33d79.tlog\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-VcpkgTripletSelection:
-  Using triplet "x86-windows" from "C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\"
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /I"C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_33d79.dir\Debug\\" /Fd"cmTC_33d79.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXCompilerABI.cpp"
-  Microsoft (R) C/C++ Optimizing Compiler Versão 19.16.27026.1 para x86
-  Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-  
-  CMakeCXXCompilerABI.cpp
-  cl /c /I"C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_33d79.dir\Debug\\" /Fd"cmTC_33d79.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXCompilerABI.cpp"
-  
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\Debug\cmTC_33d79.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/carlo/Documents/conan/contalinhas/Debug/CMakeFiles/CMakeTmp/Debug/cmTC_33d79.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/carlo/Documents/conan/contalinhas/Debug/CMakeFiles/CMakeTmp/Debug/cmTC_33d79.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_33d79.dir\Debug\CMakeCXXCompilerABI.obj
-  cmTC_33d79.vcxproj -> C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\Debug\cmTC_33d79.exe
-AppLocalFromInstalled:
-  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "C:\Users\carlo\Documents\packages\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\Debug\cmTC_33d79.exe" "C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\debug\bin" "cmTC_33d79.dir\Debug\cmTC_33d79.tlog\cmTC_33d79.write.1u.tlog" "cmTC_33d79.dir\Debug\vcpkg.applocal.log"
-FinalizeBuildStatus:
-  Excluindo o arquivo "cmTC_33d79.dir\Debug\cmTC_33d79.tlog\unsuccessfulbuild".
-  Tocando "cmTC_33d79.dir\Debug\cmTC_33d79.tlog\cmTC_33d79.lastbuildstate".
-Projeto de compilação pronto "C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\cmTC_33d79.vcxproj" (destinos padrão).
-
-Compilação com êxito.
-    0 Aviso(s)
-    0 Erro(s)
-
-Tempo Decorrido 00:00:07.66
+Run Build Command:"/usr/bin/make" "cmTC_c9ff8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c9ff8.dir/build.make CMakeFiles/cmTC_c9ff8.dir/build
+make[1]: Entering directory '/home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c9ff8.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_c9ff8.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_c9ff8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9ff8.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_c9ff8.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c9ff8  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.3.0-21ubuntu1~16.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.3.0 (Ubuntu 7.3.0-21ubuntu1~16.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c9ff8' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUi2VLp.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_c9ff8 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_c9ff8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c9ff8' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp'
 
 
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_c9ff8/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_c9ff8.dir/build.make CMakeFiles/cmTC_c9ff8.dir/build]
+  ignore line: [make[1]: Entering directory '/home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_c9ff8.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_c9ff8.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_c9ff8]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9ff8.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_c9ff8.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c9ff8  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.3.0-21ubuntu1~16.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (Ubuntu 7.3.0-21ubuntu1~16.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c9ff8' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUi2VLp.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_c9ff8 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_c9ff8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccUi2VLp.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c9ff8] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_c9ff8.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
 
 
-Detecting CXX [] compiler features compiled with the following output:
-Change Dir: C:/Users/carlo/Documents/conan/contalinhas/Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_7dd37.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
-Microsoft(R) Build Engine versão 15.9.21+g9802d43bc3 para .NET Framework 
-Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-
-Compilação de 16/01/2019 18:41:16 iniciada.
-Projeto "C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\cmTC_7dd37.vcxproj" no nó 1 (destinos padrão).
-PrepareForBuild:
-  Criando o diretório "cmTC_7dd37.dir\Debug\".
-  Criando o diretório "C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\Debug\".
-  Criando o diretório "cmTC_7dd37.dir\Debug\cmTC_7dd37.tlog\".
-InitializeBuildStatus:
-  Criando "cmTC_7dd37.dir\Debug\cmTC_7dd37.tlog\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-VcpkgTripletSelection:
-  Using triplet "x86-windows" from "C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\"
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /I"C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7dd37.dir\Debug\\" /Fd"cmTC_7dd37.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\feature_tests.cxx
-  Microsoft (R) C/C++ Optimizing Compiler Versão 19.16.27026.1 para x86
-  Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-  
-  feature_tests.cxx
-  cl /c /I"C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7dd37.dir\Debug\\" /Fd"cmTC_7dd37.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\feature_tests.cxx
-  
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\Debug\cmTC_7dd37.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/carlo/Documents/conan/contalinhas/Debug/CMakeFiles/CMakeTmp/Debug/cmTC_7dd37.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/carlo/Documents/conan/contalinhas/Debug/CMakeFiles/CMakeTmp/Debug/cmTC_7dd37.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_7dd37.dir\Debug\feature_tests.obj
-  cmTC_7dd37.vcxproj -> C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\Debug\cmTC_7dd37.exe
-AppLocalFromInstalled:
-  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "C:\Users\carlo\Documents\packages\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\Debug\cmTC_7dd37.exe" "C:\Users\carlo\Documents\packages\vcpkg\installed\x86-windows\debug\bin" "cmTC_7dd37.dir\Debug\cmTC_7dd37.tlog\cmTC_7dd37.write.1u.tlog" "cmTC_7dd37.dir\Debug\vcpkg.applocal.log"
-FinalizeBuildStatus:
-  Excluindo o arquivo "cmTC_7dd37.dir\Debug\cmTC_7dd37.tlog\unsuccessfulbuild".
-  Tocando "cmTC_7dd37.dir\Debug\cmTC_7dd37.tlog\cmTC_7dd37.lastbuildstate".
-Projeto de compilação pronto "C:\Users\carlo\Documents\conan\contalinhas\Debug\CMakeFiles\CMakeTmp\cmTC_7dd37.vcxproj" (destinos padrão).
-
-Compilação com êxito.
-    0 Aviso(s)
-    0 Erro(s)
-
-Tempo Decorrido 00:00:07.71
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2662a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2662a.dir/build.make CMakeFiles/cmTC_2662a.dir/build
+make[1]: Entering directory '/home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2662a.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_2662a.dir/feature_tests.cxx.o -c /home/86132113568/cpp/contalinhas/Debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2662a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2662a.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_2662a.dir/feature_tests.cxx.o  -o cmTC_2662a 
+make[1]: Leaving directory '/home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -395,6 +399,7 @@ Tempo Decorrido 00:00:07.71
     Feature record: CXX_FEATURE:1cxx_range_for
     Feature record: CXX_FEATURE:1cxx_raw_string_literals
     Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
     Feature record: CXX_FEATURE:1cxx_return_type_deduction
     Feature record: CXX_FEATURE:1cxx_right_angle_brackets
     Feature record: CXX_FEATURE:1cxx_rvalue_references
@@ -411,3 +416,149 @@ Tempo Decorrido 00:00:07.71
     Feature record: CXX_FEATURE:1cxx_variable_templates
     Feature record: CXX_FEATURE:1cxx_variadic_macros
     Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_db590/fast"
+/usr/bin/make -f CMakeFiles/cmTC_db590.dir/build.make CMakeFiles/cmTC_db590.dir/build
+make[1]: Entering directory '/home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_db590.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_db590.dir/feature_tests.cxx.o -c /home/86132113568/cpp/contalinhas/Debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_db590
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db590.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_db590.dir/feature_tests.cxx.o  -o cmTC_db590 
+make[1]: Leaving directory '/home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a1e8d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a1e8d.dir/build.make CMakeFiles/cmTC_a1e8d.dir/build
+make[1]: Entering directory '/home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a1e8d.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_a1e8d.dir/feature_tests.cxx.o -c /home/86132113568/cpp/contalinhas/Debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a1e8d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1e8d.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_a1e8d.dir/feature_tests.cxx.o  -o cmTC_a1e8d 
+make[1]: Leaving directory '/home/86132113568/cpp/contalinhas/Debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
