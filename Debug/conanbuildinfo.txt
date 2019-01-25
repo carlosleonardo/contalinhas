@@ -1,23 +1,23 @@
 [includedirs]
-/home/86132113568/.conan/data/boost/1.69.0/conan/stable/package/07bf35b328b244e0494c363fa36767111a1b9d08/include
-/home/86132113568/.conan/data/bzip2/1.0.6/conan/stable/package/db2ca884c9793e0b0fb54ec3f846326d1addacc8/include
-/home/86132113568/.conan/data/zlib/1.2.11/conan/stable/package/db2ca884c9793e0b0fb54ec3f846326d1addacc8/include
+C:/.conan/trpuvfam/1/include
+C:/Users/86132113568/.conan/data/bzip2/1.0.6/conan/stable/package/8cf01e2f50fcd6b63525e70584df0326550364e1/include
+C:/Users/86132113568/.conan/data/zlib/1.2.11/conan/stable/package/8cf01e2f50fcd6b63525e70584df0326550364e1/include
 
 [libdirs]
-/home/86132113568/.conan/data/boost/1.69.0/conan/stable/package/07bf35b328b244e0494c363fa36767111a1b9d08/lib
-/home/86132113568/.conan/data/bzip2/1.0.6/conan/stable/package/db2ca884c9793e0b0fb54ec3f846326d1addacc8/lib
-/home/86132113568/.conan/data/zlib/1.2.11/conan/stable/package/db2ca884c9793e0b0fb54ec3f846326d1addacc8/lib
+C:/.conan/trpuvfam/1/lib
+C:/Users/86132113568/.conan/data/bzip2/1.0.6/conan/stable/package/8cf01e2f50fcd6b63525e70584df0326550364e1/lib
+C:/Users/86132113568/.conan/data/zlib/1.2.11/conan/stable/package/8cf01e2f50fcd6b63525e70584df0326550364e1/lib
 
 [bindirs]
-/home/86132113568/.conan/data/bzip2/1.0.6/conan/stable/package/db2ca884c9793e0b0fb54ec3f846326d1addacc8/bin
+C:/Users/86132113568/.conan/data/bzip2/1.0.6/conan/stable/package/8cf01e2f50fcd6b63525e70584df0326550364e1/bin
 
 [resdirs]
 
 
 [builddirs]
-/home/86132113568/.conan/data/boost/1.69.0/conan/stable/package/07bf35b328b244e0494c363fa36767111a1b9d08/
-/home/86132113568/.conan/data/bzip2/1.0.6/conan/stable/package/db2ca884c9793e0b0fb54ec3f846326d1addacc8/
-/home/86132113568/.conan/data/zlib/1.2.11/conan/stable/package/db2ca884c9793e0b0fb54ec3f846326d1addacc8/
+C:/.conan/trpuvfam/1/
+C:/Users/86132113568/.conan/data/bzip2/1.0.6/conan/stable/package/8cf01e2f50fcd6b63525e70584df0326550364e1/
+C:/Users/86132113568/.conan/data/zlib/1.2.11/conan/stable/package/8cf01e2f50fcd6b63525e70584df0326550364e1/
 
 [libs]
 boost_wave
@@ -31,8 +31,8 @@ boost_log
 boost_program_options
 boost_random
 boost_regex
-boost_wserialization
 boost_serialization
+boost_wserialization
 boost_coroutine
 boost_fiber
 boost_context
@@ -44,24 +44,24 @@ boost_atomic
 boost_filesystem
 boost_system
 boost_type_erasure
+boost_log_setup
+boost_math_c99
+boost_math_c99f
 boost_math_c99l
 boost_math_tr1
-boost_stacktrace_backtrace
 boost_math_tr1f
-boost_math_c99f
-boost_math_c99
-boost_stacktrace_noop
-boost_log_setup
-boost_stacktrace_addr2line
-boost_unit_test_framework
-boost_stacktrace_basic
 boost_math_tr1l
-pthread
+boost_stacktrace_noop
+boost_stacktrace_windbg
+boost_stacktrace_windbg_cached
+boost_unit_test_framework
+bcrypt
 bz2
-z
+zlib
 
 [defines]
 BOOST_USE_STATIC_LIBS
+BOOST_ALL_NO_LIB
 
 [cppflags]
 
@@ -80,10 +80,10 @@ BOOST_USE_STATIC_LIBS
 
 
 [includedirs_boost]
-/home/86132113568/.conan/data/boost/1.69.0/conan/stable/package/07bf35b328b244e0494c363fa36767111a1b9d08/include
+C:/.conan/trpuvfam/1/include
 
 [libdirs_boost]
-/home/86132113568/.conan/data/boost/1.69.0/conan/stable/package/07bf35b328b244e0494c363fa36767111a1b9d08/lib
+C:/.conan/trpuvfam/1/lib
 
 [bindirs_boost]
 
@@ -92,7 +92,7 @@ BOOST_USE_STATIC_LIBS
 
 
 [builddirs_boost]
-/home/86132113568/.conan/data/boost/1.69.0/conan/stable/package/07bf35b328b244e0494c363fa36767111a1b9d08/
+C:/.conan/trpuvfam/1/
 
 [libs_boost]
 boost_wave
@@ -106,8 +106,8 @@ boost_log
 boost_program_options
 boost_random
 boost_regex
-boost_wserialization
 boost_serialization
+boost_wserialization
 boost_coroutine
 boost_fiber
 boost_context
@@ -119,22 +119,22 @@ boost_atomic
 boost_filesystem
 boost_system
 boost_type_erasure
+boost_log_setup
+boost_math_c99
+boost_math_c99f
 boost_math_c99l
 boost_math_tr1
-boost_stacktrace_backtrace
 boost_math_tr1f
-boost_math_c99f
-boost_math_c99
-boost_stacktrace_noop
-boost_log_setup
-boost_stacktrace_addr2line
-boost_unit_test_framework
-boost_stacktrace_basic
 boost_math_tr1l
-pthread
+boost_stacktrace_noop
+boost_stacktrace_windbg
+boost_stacktrace_windbg_cached
+boost_unit_test_framework
+bcrypt
 
 [defines_boost]
 BOOST_USE_STATIC_LIBS
+BOOST_ALL_NO_LIB
 
 [cppflags_boost]
 
@@ -152,23 +152,23 @@ BOOST_USE_STATIC_LIBS
 
 
 [rootpath_boost]
-/home/86132113568/.conan/data/boost/1.69.0/conan/stable/package/07bf35b328b244e0494c363fa36767111a1b9d08
+C:/.conan/trpuvfam/1
 
 
 [includedirs_bzip2]
-/home/86132113568/.conan/data/bzip2/1.0.6/conan/stable/package/db2ca884c9793e0b0fb54ec3f846326d1addacc8/include
+C:/Users/86132113568/.conan/data/bzip2/1.0.6/conan/stable/package/8cf01e2f50fcd6b63525e70584df0326550364e1/include
 
 [libdirs_bzip2]
-/home/86132113568/.conan/data/bzip2/1.0.6/conan/stable/package/db2ca884c9793e0b0fb54ec3f846326d1addacc8/lib
+C:/Users/86132113568/.conan/data/bzip2/1.0.6/conan/stable/package/8cf01e2f50fcd6b63525e70584df0326550364e1/lib
 
 [bindirs_bzip2]
-/home/86132113568/.conan/data/bzip2/1.0.6/conan/stable/package/db2ca884c9793e0b0fb54ec3f846326d1addacc8/bin
+C:/Users/86132113568/.conan/data/bzip2/1.0.6/conan/stable/package/8cf01e2f50fcd6b63525e70584df0326550364e1/bin
 
 [resdirs_bzip2]
 
 
 [builddirs_bzip2]
-/home/86132113568/.conan/data/bzip2/1.0.6/conan/stable/package/db2ca884c9793e0b0fb54ec3f846326d1addacc8/
+C:/Users/86132113568/.conan/data/bzip2/1.0.6/conan/stable/package/8cf01e2f50fcd6b63525e70584df0326550364e1/
 
 [libs_bzip2]
 bz2
@@ -192,14 +192,14 @@ bz2
 
 
 [rootpath_bzip2]
-/home/86132113568/.conan/data/bzip2/1.0.6/conan/stable/package/db2ca884c9793e0b0fb54ec3f846326d1addacc8
+C:/Users/86132113568/.conan/data/bzip2/1.0.6/conan/stable/package/8cf01e2f50fcd6b63525e70584df0326550364e1
 
 
 [includedirs_zlib]
-/home/86132113568/.conan/data/zlib/1.2.11/conan/stable/package/db2ca884c9793e0b0fb54ec3f846326d1addacc8/include
+C:/Users/86132113568/.conan/data/zlib/1.2.11/conan/stable/package/8cf01e2f50fcd6b63525e70584df0326550364e1/include
 
 [libdirs_zlib]
-/home/86132113568/.conan/data/zlib/1.2.11/conan/stable/package/db2ca884c9793e0b0fb54ec3f846326d1addacc8/lib
+C:/Users/86132113568/.conan/data/zlib/1.2.11/conan/stable/package/8cf01e2f50fcd6b63525e70584df0326550364e1/lib
 
 [bindirs_zlib]
 
@@ -208,10 +208,10 @@ bz2
 
 
 [builddirs_zlib]
-/home/86132113568/.conan/data/zlib/1.2.11/conan/stable/package/db2ca884c9793e0b0fb54ec3f846326d1addacc8/
+C:/Users/86132113568/.conan/data/zlib/1.2.11/conan/stable/package/8cf01e2f50fcd6b63525e70584df0326550364e1/
 
 [libs_zlib]
-z
+zlib
 
 [defines_zlib]
 
@@ -232,13 +232,13 @@ z
 
 
 [rootpath_zlib]
-/home/86132113568/.conan/data/zlib/1.2.11/conan/stable/package/db2ca884c9793e0b0fb54ec3f846326d1addacc8
+C:/Users/86132113568/.conan/data/zlib/1.2.11/conan/stable/package/8cf01e2f50fcd6b63525e70584df0326550364e1
 
 
+[USER_boost]
 [USER_bzip2]
 [USER_zlib]
-[USER_boost]
 [ENV_boost]
-BOOST_ROOT=/home/86132113568/.conan/data/boost/1.69.0/conan/stable/package/07bf35b328b244e0494c363fa36767111a1b9d08
+BOOST_ROOT=C:/.conan\trpuvfam\1
 [ENV_bzip2]
 [ENV_zlib]
