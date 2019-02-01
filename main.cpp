@@ -12,6 +12,9 @@ namespace fs = boost::filesystem;
 long int nLinhasTotais;
 const string filtro = "filtro.ini";
 
+long int nTotalArquivos;
+long int nTotalDiretorios;
+
 list<string> listaExtensoes;
 
 bool leFiltros()
@@ -76,6 +79,7 @@ void contalinhas(const fs::path& caminho)
         nLinhas++;
     }
     cout << "Linhas do arquivo: " << nLinhas << endl;
+    nTotalArquivos++;
     nLinhasTotais += nLinhas;
 }
 
@@ -94,6 +98,7 @@ void buscarDiretorioIterativo(const fs::path& caminhoBase)
 
         try {
             fs::directory_iterator iter(caminhoAtual);
+	    nTotalDiretorios++;
             
             for(auto& p : iter)
             {
@@ -143,13 +148,19 @@ int main(int argc, char** argv)
     if (leFiltros()) {
         if (fs::exists(argv[1])) {
             nLinhasTotais = 0;
+	    nTotalArquivos = 0;
+	    nTotalDiretorios = 0;
+
             auto inicio = chrono::system_clock::now();
             buscarDiretorioIterativo(argv[1]);
             auto fim = chrono::system_clock::now();
 
             auto lapsoTempo = chrono::duration_cast<chrono::seconds>(fim-inicio).count();
 
+	    cout << endl;
             cout << "Tempo gasto: " << lapsoTempo << " segundos. " << endl;
+	    cout << "Total de Arquivos: " << nTotalArquivos << "." << endl;
+	    cout << "Total de Diretórios: " << nTotalDiretorios << "." << endl;
         }
         cout << "Total LOC: " << nLinhasTotais << endl;
     }
