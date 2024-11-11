@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\s861321135\Documents\Projetos\cpp\contalinhas\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\s861321135\Documents\Projetos\cpp\contalinhas\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5C0F6922-98CE-37AB-9044-1A47ED6B4FFA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

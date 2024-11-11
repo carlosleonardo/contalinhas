@@ -1,344 +1,400 @@
-Debug/contaloc.dir/Debug/vc141.pdb
-Debug/ALL_BUILD.vcxproj
-Debug/ALL_BUILD.vcxproj.filters
-Debug/ALL_BUILD.vcxproj.user
-Debug/CMakeCache.txt
-Debug/ZERO_CHECK.vcxproj
-Debug/ZERO_CHECK.vcxproj.filters
-Debug/cmake_install.cmake
-Debug/conanbuildinfo.cmake
-Debug/conanbuildinfo.txt
-Debug/conaninfo.txt
-Debug/contaloc.sln
-Debug/contaloc.vcxproj
-Debug/contaloc.vcxproj.filters
-Debug/contaloc.vcxproj.user
-Debug/filtro.ini
-Debug/saida.txt
-Debug/saida2.txt
-Debug/.vs/contaloc/v15/.suo
-Debug/.vs/contaloc/v15/Browse.VC.db
-Debug/.vs/contaloc/v15/Solution.VC.db
-Debug/.vs/contaloc/v15/ipch/AutoPCH/964a3ccc57aad988/OPERATIONS.ipch
-Debug/.vs/contaloc/v15/ipch/AutoPCH/b6e5ffd4c7189119/MAIN.ipch
-Debug/CMakeFiles/CMakeOutput.log
-Debug/CMakeFiles/TargetDirectories.txt
-Debug/CMakeFiles/cmake.check_cache
-Debug/CMakeFiles/feature_tests.bin
-Debug/CMakeFiles/feature_tests.c
-Debug/CMakeFiles/feature_tests.cxx
-Debug/CMakeFiles/generate.stamp
-Debug/CMakeFiles/generate.stamp.depend
-Debug/CMakeFiles/generate.stamp.list
-Debug/CMakeFiles/3.13.3/CMakeCCompiler.cmake
-Debug/CMakeFiles/3.13.3/CMakeCXXCompiler.cmake
-Debug/CMakeFiles/3.13.3/CMakeDetermineCompilerABI_C.bin
-Debug/CMakeFiles/3.13.3/CMakeDetermineCompilerABI_CXX.bin
-Debug/CMakeFiles/3.13.3/CMakeRCCompiler.cmake
-Debug/CMakeFiles/3.13.3/CMakeSystem.cmake
-Debug/CMakeFiles/3.13.3/VCTargetsPath.txt
-Debug/CMakeFiles/3.13.3/VCTargetsPath.vcxproj
-Debug/CMakeFiles/3.13.3/CompilerIdC/CMakeCCompilerId.c
-Debug/CMakeFiles/3.13.3/CompilerIdC/CompilerIdC.exe
-Debug/CMakeFiles/3.13.3/CompilerIdC/CompilerIdC.vcxproj
-Debug/CMakeFiles/3.13.3/CompilerIdC/Debug/CMakeCCompilerId.obj
-Debug/CMakeFiles/3.13.3/CompilerIdC/Debug/vcpkg.applocal.log
-Debug/CMakeFiles/3.13.3/CompilerIdC/Debug/CompilerIdC.tlog/CL.command.1.tlog
-Debug/CMakeFiles/3.13.3/CompilerIdC/Debug/CompilerIdC.tlog/CL.read.1.tlog
-Debug/CMakeFiles/3.13.3/CompilerIdC/Debug/CompilerIdC.tlog/CL.write.1.tlog
-Debug/CMakeFiles/3.13.3/CompilerIdC/Debug/CompilerIdC.tlog/CompilerIdC.lastbuildstate
-Debug/CMakeFiles/3.13.3/CompilerIdC/Debug/CompilerIdC.tlog/CompilerIdC.write.1u.tlog
-Debug/CMakeFiles/3.13.3/CompilerIdC/Debug/CompilerIdC.tlog/link.command.1.tlog
-Debug/CMakeFiles/3.13.3/CompilerIdC/Debug/CompilerIdC.tlog/link.read.1.tlog
-Debug/CMakeFiles/3.13.3/CompilerIdC/Debug/CompilerIdC.tlog/link.write.1.tlog
-Debug/CMakeFiles/3.13.3/CompilerIdCXX/CMakeCXXCompilerId.cpp
-Debug/CMakeFiles/3.13.3/CompilerIdCXX/CompilerIdCXX.exe
-Debug/CMakeFiles/3.13.3/CompilerIdCXX/CompilerIdCXX.vcxproj
-Debug/CMakeFiles/3.13.3/CompilerIdCXX/Debug/CMakeCXXCompilerId.obj
-Debug/CMakeFiles/3.13.3/CompilerIdCXX/Debug/vcpkg.applocal.log
-Debug/CMakeFiles/3.13.3/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.command.1.tlog
-Debug/CMakeFiles/3.13.3/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.read.1.tlog
-Debug/CMakeFiles/3.13.3/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.write.1.tlog
-Debug/CMakeFiles/3.13.3/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CompilerIdCXX.lastbuildstate
-Debug/CMakeFiles/3.13.3/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CompilerIdCXX.write.1u.tlog
-Debug/CMakeFiles/3.13.3/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.command.1.tlog
-Debug/CMakeFiles/3.13.3/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.read.1.tlog
-Debug/CMakeFiles/3.13.3/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.write.1.tlog
-Debug/CMakeFiles/3.13.3/Debug/VCTargetsPath.tlog/VCTargetsPath.lastbuildstate
-Debug/CMakeFiles/d7d5f1db6299dfea42604b6306b2bf37/generate.stamp.rule
-Debug/Win32/Debug/ALL_BUILD/ALL_BUILD.tlog/ALL_BUILD.lastbuildstate
-Debug/Win32/Debug/ALL_BUILD/ALL_BUILD.tlog/custombuild.command.1.tlog
-Debug/Win32/Debug/ALL_BUILD/ALL_BUILD.tlog/custombuild.read.1.tlog
-Debug/Win32/Debug/ALL_BUILD/ALL_BUILD.tlog/custombuild.write.1.tlog
-Debug/Win32/Debug/ZERO_CHECK/ZERO_CHECK.log
-Debug/Win32/Debug/ZERO_CHECK/ZERO_CHECK.tlog/ZERO_CHECK.lastbuildstate
-Debug/Win32/Debug/ZERO_CHECK/ZERO_CHECK.tlog/custombuild.command.1.tlog
-Debug/Win32/Debug/ZERO_CHECK/ZERO_CHECK.tlog/custombuild.read.1.tlog
-Debug/Win32/Debug/ZERO_CHECK/ZERO_CHECK.tlog/custombuild.write.1.tlog
-Debug/bin/boost_filesystem-vc141-mt-gd-x32-1_68.dll
-Debug/bin/boost_system-vc141-mt-gd-x32-1_68.dll
-Debug/bin/contaloc.exe
-Debug/bin/contaloc.ilk
-Debug/bin/contaloc.pdb
-Debug/contaloc.dir/Debug/contaloc.log
-Debug/contaloc.dir/Debug/contaloc.vcxproj.CopyComplete
-Debug/contaloc.dir/Debug/main.obj
-Debug/contaloc.dir/Debug/vcpkg.applocal.log
-Debug/contaloc.dir/Debug/contaloc.tlog/CL.command.1.tlog
-Debug/contaloc.dir/Debug/contaloc.tlog/CL.read.1.tlog
-Debug/contaloc.dir/Debug/contaloc.tlog/CL.write.1.tlog
-Debug/contaloc.dir/Debug/contaloc.tlog/contaloc.lastbuildstate
-Debug/contaloc.dir/Debug/contaloc.tlog/contaloc.write.1u.tlog
-Debug/contaloc.dir/Debug/contaloc.tlog/custombuild.command.1.tlog
-Debug/contaloc.dir/Debug/contaloc.tlog/custombuild.read.1.tlog
-Debug/contaloc.dir/Debug/contaloc.tlog/custombuild.write.1.tlog
-Debug/contaloc.dir/Debug/contaloc.tlog/link.command.1.tlog
-Debug/contaloc.dir/Debug/contaloc.tlog/link.read.1.tlog
-Debug/contaloc.dir/Debug/contaloc.tlog/link.write.1.tlog
-Debug/bin/contaloc.pdb
-Debug/bin/contaloc.exe
-Debug/bin/contaloc.ilk
-Debug/contaloc.dir/Debug/main.obj
-Debug/contaloc.dir/Debug/vc141.pdb
-Debug/contaloc.dir/Debug/vcpkg.applocal.log
-Debug/contaloc.dir/Debug/contaloc.tlog/contaloc.write.1u.tlog
-Debug/contaloc.dir/Debug/contaloc.tlog/link.read.1.tlog
-Debug/contaloc.dir/Debug/contaloc.tlog/link.write.1.tlog
-Debug/contaloc.dir/Debug/contaloc.tlog/unsuccessfulbuild
-Debug/bin/contaloc.exe
-Debug/bin/contaloc.ilk
-Debug/bin/contaloc.pdb
-Debug/contaloc.dir/Debug/main.obj
-Debug/contaloc.dir/Debug/vc141.pdb
-Debug/contaloc.dir/Debug/contaloc.tlog/contaloc.write.1u.tlog
-Debug/contaloc.dir/Debug/contaloc.tlog/link.read.1.tlog
-Debug/contaloc.dir/Debug/contaloc.tlog/link.write.1.tlog
-Debug/bin/contaloc.exe
-Debug/bin/contaloc.ilk
-Debug/bin/contaloc.pdb
-Debug/contaloc.dir/Debug/main.obj
-Debug/contaloc.dir/Debug/vc141.pdb
-Debug/contaloc.dir/Debug/contaloc.tlog/contaloc.write.1u.tlog
-Debug/contaloc.dir/Debug/contaloc.tlog/link.read.1.tlog
-Release/Win32/Debug/ZERO_CHECK/ZERO_CHECK.tlog/custombuild.write.1.tlog
-Release/ALL_BUILD.vcxproj
-Release/ALL_BUILD.vcxproj.filters
-Release/CMakeCache.txt
-Release/ZERO_CHECK.vcxproj
-Release/ZERO_CHECK.vcxproj.filters
-Release/cmake_install.cmake
-Release/conanbuildinfo.cmake
-Release/conanbuildinfo.txt
-Release/conaninfo.txt
-Release/contaloc.sln
-Release/contaloc.vcxproj
-Release/contaloc.vcxproj.filters
-Release/filtro.ini
-Release/graph_info.json
-Release/CMakeFiles/CMakeOutput.log
-Release/CMakeFiles/TargetDirectories.txt
-Release/CMakeFiles/cmake.check_cache
-Release/CMakeFiles/feature_tests.bin
-Release/CMakeFiles/feature_tests.c
-Release/CMakeFiles/feature_tests.cxx
-Release/CMakeFiles/generate.stamp
-Release/CMakeFiles/generate.stamp.depend
-Release/CMakeFiles/generate.stamp.list
-Release/CMakeFiles/3.13.2/CMakeCCompiler.cmake
-Release/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake
-Release/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin
-Release/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin
-Release/CMakeFiles/3.13.2/CMakeRCCompiler.cmake
-Release/CMakeFiles/3.13.2/CMakeSystem.cmake
-Release/CMakeFiles/3.13.2/VCTargetsPath.txt
-Release/CMakeFiles/3.13.2/VCTargetsPath.vcxproj
-Release/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c
-Release/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.exe
-Release/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.vcxproj
-Release/CMakeFiles/3.13.2/CompilerIdC/Debug/CMakeCCompilerId.obj
-Release/CMakeFiles/3.13.2/CompilerIdC/Debug/vcpkg.applocal.log
-Release/CMakeFiles/3.13.2/CompilerIdC/Debug/CompilerIdC.tlog/CL.command.1.tlog
-Release/CMakeFiles/3.13.2/CompilerIdC/Debug/CompilerIdC.tlog/CL.read.1.tlog
-Release/CMakeFiles/3.13.2/CompilerIdC/Debug/CompilerIdC.tlog/CL.write.1.tlog
-Release/CMakeFiles/3.13.2/CompilerIdC/Debug/CompilerIdC.tlog/CompilerIdC.lastbuildstate
-Release/CMakeFiles/3.13.2/CompilerIdC/Debug/CompilerIdC.tlog/CompilerIdC.write.1u.tlog
-Release/CMakeFiles/3.13.2/CompilerIdC/Debug/CompilerIdC.tlog/link.command.1.tlog
-Release/CMakeFiles/3.13.2/CompilerIdC/Debug/CompilerIdC.tlog/link.read.1.tlog
-Release/CMakeFiles/3.13.2/CompilerIdC/Debug/CompilerIdC.tlog/link.write.1.tlog
-Release/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
-Release/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.exe
-Release/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.vcxproj
-Release/CMakeFiles/3.13.2/CompilerIdCXX/Debug/CMakeCXXCompilerId.obj
-Release/CMakeFiles/3.13.2/CompilerIdCXX/Debug/vcpkg.applocal.log
-Release/CMakeFiles/3.13.2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.command.1.tlog
-Release/CMakeFiles/3.13.2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.read.1.tlog
-Release/CMakeFiles/3.13.2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.write.1.tlog
-Release/CMakeFiles/3.13.2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CompilerIdCXX.lastbuildstate
-Release/CMakeFiles/3.13.2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CompilerIdCXX.write.1u.tlog
-Release/CMakeFiles/3.13.2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.command.1.tlog
-Release/CMakeFiles/3.13.2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.read.1.tlog
-Release/CMakeFiles/3.13.2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.write.1.tlog
-Release/CMakeFiles/3.13.2/Debug/VCTargetsPath.tlog/VCTargetsPath.lastbuildstate
-Release/CMakeFiles/eda0053ac1a4d9db385994c713ba06c3/generate.stamp.rule
-Release/Win32/Debug/ALL_BUILD/ALL_BUILD.tlog/ALL_BUILD.lastbuildstate
-Release/Win32/Debug/ALL_BUILD/ALL_BUILD.tlog/custombuild.command.1.tlog
-Release/Win32/Debug/ALL_BUILD/ALL_BUILD.tlog/custombuild.read.1.tlog
-Release/Win32/Debug/ALL_BUILD/ALL_BUILD.tlog/custombuild.write.1.tlog
-Release/Win32/Debug/ZERO_CHECK/ZERO_CHECK.tlog/ZERO_CHECK.lastbuildstate
-Release/Win32/Debug/ZERO_CHECK/ZERO_CHECK.tlog/custombuild.command.1.tlog
-Release/Win32/Debug/ZERO_CHECK/ZERO_CHECK.tlog/custombuild.read.1.tlog
-Release/bin/boost_filesystem-vc141-mt-gd-x32-1_68.dll
-Release/bin/boost_system-vc141-mt-gd-x32-1_68.dll
-Release/bin/contaloc.exe
-Release/bin/contaloc.ilk
-Release/bin/contaloc.pdb
-Release/contaloc.dir/Debug/contaloc.vcxproj.CopyComplete
-Release/contaloc.dir/Debug/main.obj
-Release/contaloc.dir/Debug/vc141.pdb
-Release/contaloc.dir/Debug/vcpkg.applocal.log
-Release/contaloc.dir/Debug/contaloc.tlog/CL.command.1.tlog
-Release/contaloc.dir/Debug/contaloc.tlog/CL.read.1.tlog
-Release/contaloc.dir/Debug/contaloc.tlog/CL.write.1.tlog
-Release/contaloc.dir/Debug/contaloc.tlog/contaloc.lastbuildstate
-Release/contaloc.dir/Debug/contaloc.tlog/contaloc.write.1u.tlog
-Release/contaloc.dir/Debug/contaloc.tlog/custombuild.command.1.tlog
-Release/contaloc.dir/Debug/contaloc.tlog/custombuild.read.1.tlog
-Release/contaloc.dir/Debug/contaloc.tlog/custombuild.write.1.tlog
-Release/contaloc.dir/Debug/contaloc.tlog/link.command.1.tlog
-Release/contaloc.dir/Debug/contaloc.tlog/link.read.1.tlog
-Release/contaloc.dir/Debug/contaloc.tlog/link.write.1.tlog
-Debug/CMakeFiles/contaloc.dir/link.txt
-Debug/ALL_BUILD.vcxproj
-Debug/ALL_BUILD.vcxproj.filters
-Debug/CMakeCache.txt
-Debug/Makefile
-Debug/ZERO_CHECK.vcxproj
-Debug/ZERO_CHECK.vcxproj.filters
-Debug/cmake_install.cmake
-Debug/conanbuildinfo.cmake
-Debug/conanbuildinfo.txt
-Debug/conaninfo.txt
-Debug/contaloc.sln
-Debug/contaloc.vcxproj
-Debug/contaloc.vcxproj.filters
-Debug/graph_info.json
-Debug/CMakeFiles/CMakeDirectoryInformation.cmake
-Debug/CMakeFiles/CMakeOutput.log
-Debug/CMakeFiles/Makefile.cmake
-Debug/CMakeFiles/Makefile2
-Debug/CMakeFiles/TargetDirectories.txt
-Debug/CMakeFiles/feature_tests.bin
-Debug/CMakeFiles/feature_tests.c
-Debug/CMakeFiles/feature_tests.cxx
-Debug/CMakeFiles/generate.stamp
-Debug/CMakeFiles/generate.stamp.depend
-Debug/CMakeFiles/generate.stamp.list
-Debug/CMakeFiles/progress.marks
-Debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake
-Debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake
-Debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin
-Debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin
-Debug/CMakeFiles/3.13.2/CMakeRCCompiler.cmake
-Debug/CMakeFiles/3.13.2/CMakeSystem.cmake
-Debug/CMakeFiles/3.13.2/VCTargetsPath.txt
-Debug/CMakeFiles/3.13.2/VCTargetsPath.vcxproj
-Debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c
-Debug/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.exe
-Debug/CMakeFiles/3.13.2/CompilerIdC/CompilerIdC.vcxproj
-Debug/CMakeFiles/3.13.2/CompilerIdC/Debug/CMakeCCompilerId.obj
-Debug/CMakeFiles/3.13.2/CompilerIdC/Debug/vcpkg.applocal.log
-Debug/CMakeFiles/3.13.2/CompilerIdC/Debug/CompilerIdC.tlog/CL.command.1.tlog
-Debug/CMakeFiles/3.13.2/CompilerIdC/Debug/CompilerIdC.tlog/CL.read.1.tlog
-Debug/CMakeFiles/3.13.2/CompilerIdC/Debug/CompilerIdC.tlog/CL.write.1.tlog
-Debug/CMakeFiles/3.13.2/CompilerIdC/Debug/CompilerIdC.tlog/CompilerIdC.lastbuildstate
-Debug/CMakeFiles/3.13.2/CompilerIdC/Debug/CompilerIdC.tlog/CompilerIdC.write.1u.tlog
-Debug/CMakeFiles/3.13.2/CompilerIdC/Debug/CompilerIdC.tlog/link.command.1.tlog
-Debug/CMakeFiles/3.13.2/CompilerIdC/Debug/CompilerIdC.tlog/link.read.1.tlog
-Debug/CMakeFiles/3.13.2/CompilerIdC/Debug/CompilerIdC.tlog/link.write.1.tlog
-Debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
-Debug/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.exe
-Debug/CMakeFiles/3.13.2/CompilerIdCXX/CompilerIdCXX.vcxproj
-Debug/CMakeFiles/3.13.2/CompilerIdCXX/Debug/CMakeCXXCompilerId.obj
-Debug/CMakeFiles/3.13.2/CompilerIdCXX/Debug/vcpkg.applocal.log
-Debug/CMakeFiles/3.13.2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.command.1.tlog
-Debug/CMakeFiles/3.13.2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.read.1.tlog
-Debug/CMakeFiles/3.13.2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.write.1.tlog
-Debug/CMakeFiles/3.13.2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CompilerIdCXX.lastbuildstate
-Debug/CMakeFiles/3.13.2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CompilerIdCXX.write.1u.tlog
-Debug/CMakeFiles/3.13.2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.command.1.tlog
-Debug/CMakeFiles/3.13.2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.read.1.tlog
-Debug/CMakeFiles/3.13.2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.write.1.tlog
-Debug/CMakeFiles/3.13.2/Debug/VCTargetsPath.tlog/VCTargetsPath.lastbuildstate
-Debug/CMakeFiles/3.5.1/CMakeCCompiler.cmake
-Debug/CMakeFiles/3.5.1/CMakeCXXCompiler.cmake
-Debug/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_C.bin
-Debug/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_CXX.bin
-Debug/CMakeFiles/3.5.1/CMakeSystem.cmake
-Debug/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c
-Debug/CMakeFiles/3.5.1/CompilerIdC/a.out
-Debug/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
-Debug/CMakeFiles/3.5.1/CompilerIdCXX/a.out
-Debug/CMakeFiles/55b19cf9cd027bba43ca5fd6538ab558/generate.stamp.rule
-Debug/CMakeFiles/contaloc.dir/CXX.includecache
-Debug/CMakeFiles/contaloc.dir/DependInfo.cmake
-Debug/CMakeFiles/contaloc.dir/build.make
-Debug/CMakeFiles/contaloc.dir/cmake_clean.cmake
-Debug/CMakeFiles/contaloc.dir/depend.internal
-Debug/CMakeFiles/contaloc.dir/depend.make
-Debug/CMakeFiles/contaloc.dir/flags.make
-Debug/CMakeFiles/contaloc.dir/main.cpp.o
-Debug/CMakeFiles/contaloc.dir/progress.make
-Debug/Win32/Debug/ALL_BUILD/ALL_BUILD.tlog/ALL_BUILD.lastbuildstate
-Debug/Win32/Debug/ALL_BUILD/ALL_BUILD.tlog/custombuild.command.1.tlog
-Debug/Win32/Debug/ALL_BUILD/ALL_BUILD.tlog/custombuild.read.1.tlog
-Debug/Win32/Debug/ALL_BUILD/ALL_BUILD.tlog/custombuild.write.1.tlog
-Debug/Win32/Debug/ZERO_CHECK/ZERO_CHECK.tlog/ZERO_CHECK.lastbuildstate
-Debug/Win32/Debug/ZERO_CHECK/ZERO_CHECK.tlog/custombuild.command.1.tlog
-Debug/Win32/Debug/ZERO_CHECK/ZERO_CHECK.tlog/custombuild.read.1.tlog
-Debug/Win32/Debug/ZERO_CHECK/ZERO_CHECK.tlog/custombuild.write.1.tlog
-Debug/bin/boost_filesystem-vc141-mt-gd-x32-1_68.dll
-Debug/bin/boost_system-vc141-mt-gd-x32-1_68.dll
-Debug/bin/contaloc
-Debug/bin/contaloc.exe
-Debug/bin/contaloc.ilk
-Debug/bin/contaloc.pdb
-Debug/contaloc.dir/Debug/contaloc.vcxproj.CopyComplete
-Debug/contaloc.dir/Debug/main.obj
-Debug/contaloc.dir/Debug/vc141.pdb
-Debug/contaloc.dir/Debug/vcpkg.applocal.log
-Debug/contaloc.dir/Debug/contaloc.tlog/CL.command.1.tlog
-Debug/contaloc.dir/Debug/contaloc.tlog/CL.read.1.tlog
-Debug/contaloc.dir/Debug/contaloc.tlog/CL.write.1.tlog
-Debug/contaloc.dir/Debug/contaloc.tlog/contaloc.lastbuildstate
-Debug/contaloc.dir/Debug/contaloc.tlog/contaloc.write.1u.tlog
-Debug/contaloc.dir/Debug/contaloc.tlog/custombuild.command.1.tlog
-Debug/contaloc.dir/Debug/contaloc.tlog/custombuild.read.1.tlog
-Debug/contaloc.dir/Debug/contaloc.tlog/custombuild.write.1.tlog
-Debug/contaloc.dir/Debug/contaloc.tlog/link.command.1.tlog
-Debug/contaloc.dir/Debug/contaloc.tlog/link.read.1.tlog
-Debug/contaloc.dir/Debug/contaloc.tlog/link.write.1.tlog
-Debug/CMakeCache.txt
-Debug/ZERO_CHECK.vcxproj.user
-Debug/cmake_install.cmake
-Debug/conanbuildinfo.cmake
-Debug/conanbuildinfo.txt
-Debug/conaninfo.txt
-Debug/contaloc.psess
-Debug/contaloc190122.vsp
-Debug/CMakeFiles/TargetDirectories.txt
-Debug/contaloc.dir/Release/contaloc.log
-Debug/contaloc.dir/Release/contaloc.Build.CppClean.log
-Debug/contaloc.dir/Release/contaloc.vcxproj.CopyComplete
-Debug/contaloc.dir/Release/main.obj
-Debug/contaloc.dir/Release/vcpkg.applocal.log
-Debug/contaloc.dir/Release/contaloc.tlog/CL.command.1.tlog
-Debug/contaloc.dir/Release/contaloc.tlog/CL.read.1.tlog
-Debug/contaloc.dir/Release/contaloc.tlog/CL.write.1.tlog
-Debug/contaloc.dir/Release/contaloc.tlog/contaloc.lastbuildstate
-Debug/contaloc.dir/Release/contaloc.tlog/contaloc.write.1u.tlog
-Debug/contaloc.dir/Release/contaloc.tlog/custombuild.command.1.tlog
-Debug/contaloc.dir/Release/contaloc.tlog/custombuild.read.1.tlog
-Debug/contaloc.dir/Release/contaloc.tlog/custombuild.write.1.tlog
-Debug/contaloc.dir/Release/contaloc.tlog/link.command.1.tlog
-Debug/contaloc.dir/Release/contaloc.tlog/link.read.1.tlog
-Debug/contaloc.dir/Release/contaloc.tlog/link.write.1.tlog
+## Ignore Visual Studio temporary files, build results, and
+## files generated by popular Visual Studio add-ons.
+##
+## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Mono auto generated files
+mono_crash.*
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/
+# Uncomment if you have tasks that create the project's static files in wwwroot
+#wwwroot/
+
+# Visual Studio 2017 auto generated files
+Generated\ Files/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# Build Results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
+
+# Benchmark Results
+BenchmarkDotNet.Artifacts/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# StyleCop
+StyleCopReport.xml
+
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+# but not Directory.Build.rsp, as it configures directory-level build defaults
+!Directory.Build.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Chutzpah Test files
+_Chutzpah*
+
+# Visual C++ cache files
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Visual Studio Trace Files
+*.e2e
+
+# TFS 2012 Local Workspace
+$tf/
+
+# Guidance Automation Toolkit
+*.gpState
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# TeamCity is a build add-in
+_TeamCity*
+
+# DotCover is a Code Coverage Tool
+*.dotCover
+
+# AxoCover is a Code Coverage Tool
+.axoCover/*
+!.axoCover/settings.json
+
+# Coverlet is a free, cross platform Code Coverage Tool
+coverage*.json
+coverage*.xml
+coverage*.info
+
+# Visual Studio code coverage results
+*.coverage
+*.coveragexml
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# MightyMoose
+*.mm.*
+AutoTest.Net/
+
+# Web workbench (sass)
+.sass-cache/
+
+# Installshield output folder
+[Ee]xpress/
+
+# DocProject is a documentation generator add-in
+DocProject/buildhelp/
+DocProject/Help/*.HxT
+DocProject/Help/*.HxC
+DocProject/Help/*.hhc
+DocProject/Help/*.hhk
+DocProject/Help/*.hhp
+DocProject/Help/Html2
+DocProject/Help/html
+
+# Click-Once directory
+publish/
+
+# Publish Web Output
+*.[Pp]ublish.xml
+*.azurePubxml
+# Note: Comment the next line if you want to checkin your web deploy settings,
+# but database connection strings (with potential passwords) will be unencrypted
+*.pubxml
+*.publishproj
+
+# Microsoft Azure Web App publish settings. Comment the next line if you want to
+# checkin your Azure Web App publish settings, but sensitive information contained
+# in these scripts will be unencrypted
+PublishScripts/
+
+# NuGet Packages
+*.nupkg
+# NuGet Symbol Packages
+*.snupkg
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/[Pp]ackages/repositories.config
+# NuGet v3's project.json files produces more ignorable files
+*.nuget.props
+*.nuget.targets
+
+# Microsoft Azure Build Output
+csx/
+*.build.csdef
+
+# Microsoft Azure Emulator
+ecf/
+rcf/
+
+# Windows Store app package directories and files
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_pkginfo.txt
+*.appx
+*.appxbundle
+*.appxupload
+
+# Visual Studio cache files
+# files ending in .cache can be ignored
+*.[Cc]ache
+# but keep track of directories ending in .cache
+!?*.[Cc]ache/
+
+# Others
+ClientBin/
+~$*
+*~
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+orleans.codegen.cs
+
+# Including strong name files can present a security risk
+# (https://github.com/github/gitignore/pull/2483#issue-259490424)
+#*.snk
+
+# Since there are multiple workflows, uncomment next line to ignore bower_components
+# (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
+#bower_components/
+
+# RIA/Silverlight projects
+Generated_Code/
+
+# Backup & report files from converting an old project file
+# to a newer Visual Studio version. Backup files are not needed,
+# because we have git ;-)
+_UpgradeReport_Files/
+Backup*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+ServiceFabricBackup/
+*.rptproj.bak
+
+# SQL Server files
+*.mdf
+*.ldf
+*.ndf
+
+# Business Intelligence projects
+*.rdl.data
+*.bim.layout
+*.bim_*.settings
+*.rptproj.rsuser
+*- [Bb]ackup.rdl
+*- [Bb]ackup ([0-9]).rdl
+*- [Bb]ackup ([0-9][0-9]).rdl
+
+# Microsoft Fakes
+FakesAssemblies/
+
+# GhostDoc plugin setting file
+*.GhostDoc.xml
+
+# Node.js Tools for Visual Studio
+.ntvs_analysis.dat
+node_modules/
+
+# Visual Studio 6 build log
+*.plg
+
+# Visual Studio 6 workspace options file
+*.opt
+
+# Visual Studio 6 auto-generated workspace file (contains which files were open etc.)
+*.vbw
+
+# Visual Studio 6 auto-generated project file (contains which files were open etc.)
+*.vbp
+
+# Visual Studio 6 workspace and project file (working project files containing files to include in project)
+*.dsw
+*.dsp
+
+# Visual Studio 6 technical files
+*.ncb
+*.aps
+
+# Visual Studio LightSwitch build output
+**/*.HTMLClient/GeneratedArtifacts
+**/*.DesktopClient/GeneratedArtifacts
+**/*.DesktopClient/ModelManifest.xml
+**/*.Server/GeneratedArtifacts
+**/*.Server/ModelManifest.xml
+_Pvt_Extensions
+
+# Paket dependency manager
+.paket/paket.exe
+paket-files/
+
+# FAKE - F# Make
+.fake/
+
+# CodeRush personal settings
+.cr/personal
+
+# Python Tools for Visual Studio (PTVS)
+__pycache__/
+*.pyc
+
+# Cake - Uncomment if you are using it
+# tools/**
+# !tools/packages.config
+
+# Tabs Studio
+*.tss
+
+# Telerik's JustMock configuration file
+*.jmconfig
+
+# BizTalk build output
+*.btp.cs
+*.btm.cs
+*.odx.cs
+*.xsd.cs
+
+# OpenCover UI analysis results
+OpenCover/
+
+# Azure Stream Analytics local run output
+ASALocalRun/
+
+# MSBuild Binary and Structured Log
+*.binlog
+
+# NVidia Nsight GPU debugger configuration file
+*.nvuser
+
+# MFractors (Xamarin productivity tool) working folder
+.mfractor/
+
+# Local History for Visual Studio
+.localhistory/
+
+# Visual Studio History (VSHistory) files
+.vshistory/
+
+# BeatPulse healthcheck temp database
+healthchecksdb
+
+# Backup folder for Package Reference Convert tool in Visual Studio 2017
+MigrationBackup/
+
+# Ionide (cross platform F# VS Code tools) working folder
+.ionide/
+
+# Fody - auto-generated XML schema
+FodyWeavers.xsd
+
+# VS Code files for those working on multiple tools
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+# Windows Installer files from build outputs
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# JetBrains Rider
+*.sln.iml
