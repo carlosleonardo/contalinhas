@@ -1,0 +1,3 @@
+C:/Users/s861321135/Documents/Projetos/cpp/contalinhas/build/CMakeFiles/contaloc.dir
+C:/Users/s861321135/Documents/Projetos/cpp/contalinhas/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/s861321135/Documents/Projetos/cpp/contalinhas/build/CMakeFiles/ZERO_CHECK.dir
