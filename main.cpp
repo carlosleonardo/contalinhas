@@ -3,11 +3,11 @@
 #include <string>
 #include <list>
 #include <stack>
-#include <boost/filesystem.hpp>
+#include <filesystem>
 #include <chrono>
 
 using namespace std;
-namespace fs = boost::filesystem;
+namespace fs = std::filesystem;
 
 long int nLinhasTotais;
 const string filtro = "filtro.ini";
@@ -20,22 +20,25 @@ list<string> listaExtensoes;
 bool leFiltros()
 {
     ifstream inp(filtro);
-    
-    if (!inp) {
+
+    if (!inp)
+    {
         cout << "Não pude abrir arquivo " << filtro << endl;
         cout << "Se não existir, crie-o no diretório atual e depois insira [extensoes] seguido "
-            "por extensões de arquivo para filtrar, uma por linha." << endl;
+                "por extensões de arquivo para filtrar, uma por linha."
+             << endl;
         return false;
     }
 
     string linha;
     getline(inp, linha);
-        
-    if (linha.find("extensoes")==string::npos) {
+
+    if (linha.find("extensoes") == string::npos)
+    {
         cout << "Chave extensoes não encontrada" << endl;
         return false;
     }
-    while(!inp.eof())
+    while (!inp.eof())
     {
         // Recupera uma extensão por linha
         getline(inp, linha);
@@ -45,12 +48,13 @@ bool leFiltros()
 }
 
 // Vê se o arquivo possui a extensão permitida
-bool possuiExtensaoFiltrada(const fs::path& c)
+bool possuiExtensaoFiltrada(const fs::path &c)
 {
     auto extensao = c.extension();
-    for(auto& ext : listaExtensoes)
+    for (auto &ext : listaExtensoes)
     {
-        if ( extensao == ("." + ext)) {
+        if (extensao == ("." + ext))
+        {
             return true;
         }
     }
@@ -58,9 +62,10 @@ bool possuiExtensaoFiltrada(const fs::path& c)
     return false;
 }
 
-void contalinhas(const fs::path& caminho)
+void contalinhas(const fs::path &caminho)
 {
-    if ( !possuiExtensaoFiltrada(caminho) ) {
+    if (!possuiExtensaoFiltrada(caminho))
+    {
         return;
     }
 
@@ -68,13 +73,15 @@ void contalinhas(const fs::path& caminho)
     ifstream inp(caminho.c_str(), ios::in);
     long int nLinhas = 0;
 
-    if (!inp) {
+    if (!inp)
+    {
         cout << "Não foi possível abrir " << caminho << endl;
         return;
     }
-    
+
     string linha;
-    while(!inp.eof()) {
+    while (!inp.eof())
+    {
         getline(inp, linha);
         nLinhas++;
     }
@@ -83,7 +90,7 @@ void contalinhas(const fs::path& caminho)
     nLinhasTotais += nLinhas;
 }
 
-void buscarDiretorioIterativo(const fs::path& caminhoBase)
+void buscarDiretorioIterativo(const fs::path &caminhoBase)
 {
     cout << "Buscando diretório " << caminhoBase << endl;
     stack<fs::path> pastas;
@@ -92,78 +99,85 @@ void buscarDiretorioIterativo(const fs::path& caminhoBase)
     pastas.push(caminhoBase);
 
     while (!pastas.empty())
-    {   
+    {
         caminhoAtual = pastas.top();
         pastas.pop();
 
-        try {
+        try
+        {
             fs::directory_iterator iter(caminhoAtual);
-	    nTotalDiretorios++;
-            
-            for(auto& p : iter)
+            nTotalDiretorios++;
+
+            for (auto &p : iter)
             {
-                if (fs::is_regular_file(p)) {
+                if (fs::is_regular_file(p))
+                {
                     contalinhas(p);
-                } else if (fs::is_directory(p))
+                }
+                else if (fs::is_directory(p))
                 {
                     pastas.push(p);
                 }
             }
         }
-        catch(std::exception& e)
+        catch (std::exception &e)
         {
             cerr << e.what() << endl;
         }
     }
 }
 
-void buscarDiretorio(const fs::path& caminho)
+void buscarDiretorio(const fs::path &caminho)
 {
     cout << "Buscando diretório " << caminho << endl;
     fs::directory_iterator iter(caminho);
-    
-    for(auto& p : iter)
+
+    for (auto &p : iter)
     {
-        if (fs::is_regular_file(p)) {
+        if (fs::is_regular_file(p))
+        {
             contalinhas(p);
-        } else if (fs::is_directory(p))
+        }
+        else if (fs::is_directory(p))
         {
             buscarDiretorio(p);
         }
     }
-
 }
 
-int main(int argc, char** argv)
+int main(int argc, char **argv)
 {
 #ifdef WIN32
     locale::global(std::locale("pt_BR.utf8"));
     cout.imbue(std::locale());
 #endif
-    if (argc==1) {
+    if (argc == 1)
+    {
         cout << "Forma de uso: " << argv[0] << " <diretório-base>" << "\n";
         return -1;
     }
-    
-    if (leFiltros()) {
-        if (fs::exists(argv[1])) {
+
+    if (leFiltros())
+    {
+        if (fs::exists(argv[1]))
+        {
             nLinhasTotais = 0;
-	    nTotalArquivos = 0;
-	    nTotalDiretorios = 0;
+            nTotalArquivos = 0;
+            nTotalDiretorios = 0;
 
             auto inicio = chrono::system_clock::now();
             buscarDiretorioIterativo(argv[1]);
             auto fim = chrono::system_clock::now();
 
-            auto lapsoTempo = chrono::duration_cast<chrono::seconds>(fim-inicio).count();
+            auto lapsoTempo = chrono::duration_cast<chrono::seconds>(fim - inicio).count();
 
-	    cout << endl;
+            cout << endl;
             cout << "Tempo gasto: " << lapsoTempo << " segundos. " << endl;
-	    cout << "Total de Arquivos: " << nTotalArquivos << "." << endl;
-	    cout << "Total de Diretórios: " << nTotalDiretorios << "." << endl;
+            cout << "Total de Arquivos: " << nTotalArquivos << "." << endl;
+            cout << "Total de Diretórios: " << nTotalDiretorios << "." << endl;
         }
         cout << "Total LOC: " << nLinhasTotais << endl;
     }
-    
+
     return 0;
 }
