@@ -50,8 +50,8 @@ bool leFiltros()
 // Vê se o arquivo possui a extensão permitida
 bool possuiExtensaoFiltrada(const fs::path &c)
 {
-    auto extensao = c.extension();
-    for (auto &ext : listaExtensoes)
+    const auto extensao = c.extension();
+    for (const auto &ext : listaExtensoes)
     {
         if (extensao == ("." + ext))
         {
@@ -108,7 +108,7 @@ void buscarDiretorioIterativo(const fs::path &caminhoBase)
             fs::directory_iterator iter(caminhoAtual);
             nTotalDiretorios++;
 
-            for (auto &p : iter)
+            for (const auto &p : iter)
             {
                 if (fs::is_regular_file(p))
                 {
@@ -132,7 +132,7 @@ void buscarDiretorio(const fs::path &caminho)
     cout << "Buscando diretório " << caminho << endl;
     fs::directory_iterator iter(caminho);
 
-    for (auto &p : iter)
+    for (const auto &p : iter)
     {
         if (fs::is_regular_file(p))
         {
