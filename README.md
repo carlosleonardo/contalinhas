@@ -2,34 +2,37 @@
 
 1. Para iniciar, instale:
 
--   Visual Studio Code;
+-   Visual Studio Code ou CLion IDE;
+-   CMake Tools para VSCode;
 -   C++ Extensions para VSCode;
--   conan package manager
--   CMake 3.12
+-   CMake 3.12 no mínimo;
 -   Git
 
-2. Usando git, faça a clonagem deste projeto em um diretório qualquer:
+  2. Instruções para clonar e compilar o projeto no VSCode:
 
--   git clone https://github.com/carlosleonardo/contalinhas.git
+      2.1. Acione Ctrl + Shift + P e digite "Git: Clone" para clonar o repositório:
 
-3. Execute o comando para detectar o profile:
+     -   https://github.com/carlosleonardo/contalinhas.git
 
--   conan profile detect --force
+      2.2. Abra a pasta clonada no VSCode e abra o terminal integrado (Ctrl + `). Verifiqq se você está na pasta correta:
 
-4. Entre no diretório raiz e execute o seguinte comando:
+     -   $ cd contalinhas
 
--   conan install . --build=missing
-    O conan deve estar no PATH. Ao término da execução, as dependências listadas em conanfile.txt devem estar instaladas
+     2.3. Configure o cmake para gerar os arquivos de build:
 
-5. CMake deve estar no PATH. Execute o seguinte comando:
+     -   $ cmake -S . -B build
 
--   $ cmake --list-presets
--   $ cmake --preset=conan-default para usar o profile do conan
+     2.4. Dê um build no projeto:
 
-6. Configure o cmake
+     -   $ cmake --build build
 
--   $ cmake .
+  3. Instruções para o CLion:
 
-7. Dê um build no projeto:
+     3.1. Abra o CLion e selecione "File - New Project From Version Control".
 
--   $ cmake . --build build
+     3.2. Cole a URL do repositório:
+     https://github.com/carlosleonardo/contalinhas.git
+    
+     3.3. Ao aparecer a janela de configuração do projeto, selecione o diretório onde o projeto será salvo e clique em "Clone".
+   
+     3.4. O CLion irá abrir o projeto e configurar o CMake automaticamente. Confirme a configuração apresentada
