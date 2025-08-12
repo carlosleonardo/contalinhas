@@ -98,13 +98,12 @@ void buscarDiretorioIterativo(const fs::path &caminhoBase)
 {
     cout << "Buscando diretório " << caminhoBase << endl;
     stack<fs::path> pastas;
-    fs::path caminhoAtual;
 
     pastas.push(caminhoBase);
 
     while (!pastas.empty())
     {
-        caminhoAtual = pastas.top();
+        fs::path caminhoAtual = pastas.top();
         pastas.pop();
 
         try
@@ -169,11 +168,11 @@ int main(int argc, char **argv)
             nTotalArquivos = 0;
             nTotalDiretorios = 0;
 
-            auto inicio = chrono::system_clock::now();
+            const auto inicio = chrono::system_clock::now();
             buscarDiretorioIterativo(argv[1]);
-            auto fim = chrono::system_clock::now();
+            const auto fim = chrono::system_clock::now();
 
-            auto lapsoTempo = chrono::duration_cast<chrono::seconds>(fim - inicio).count();
+            const auto lapsoTempo = chrono::duration_cast<chrono::seconds>(fim - inicio).count();
 
             cout << endl;
             cout << "Tempo gasto: " << lapsoTempo << " segundos. " << endl;
