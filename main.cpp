@@ -6,6 +6,10 @@
 #include <filesystem>
 #include <chrono>
 
+#ifdef WIN32
+#include <windows.h>
+#endif
+
 using namespace std;
 namespace fs = std::filesystem;
 
@@ -148,8 +152,8 @@ void buscarDiretorio(const fs::path &caminho)
 int main(int argc, char **argv)
 {
 #ifdef WIN32
-    locale::global(std::locale("pt_BR.utf8"));
-    cout.imbue(std::locale());
+    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleCP(CP_UTF8);
 #endif
     if (argc == 1)
     {
