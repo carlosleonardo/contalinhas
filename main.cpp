@@ -5,6 +5,7 @@
 #include <stack>
 #include <filesystem>
 #include <chrono>
+#include <algorithm>
 
 #ifdef WIN32
 #include <windows.h>
@@ -20,6 +21,17 @@ long int nTotalArquivos;
 long int nTotalDiretorios;
 
 list<string> listaExtensoes;
+list<string> listaPastasIgnoradas;
+
+// Verifica se a pasta deve ser ignorada
+bool deveIgnorarPasta(const fs::path &caminhoPasta)
+{
+    string nomePasta = caminhoPasta.filename().string();
+    return std::any_of(listaPastasIgnoradas.begin(), listaPastasIgnoradas.end(),
+                       [&nomePasta](const string &pastaIgnorada) {
+                           return nomePasta == pastaIgnorada;
+                       });
+}
 
 bool leFiltros()
 {
@@ -35,19 +47,46 @@ bool leFiltros()
     }
 
     string linha;
-    getline(inp, linha);
+    string secaoAtual;
 
-    if (linha.find("extensoes") == string::npos)
-    {
-        cout << "Chave extensoes não encontrada" << endl;
-        return false;
-    }
     while (!inp.eof())
     {
         // Recupera uma extensão por linha
         getline(inp, linha);
-        listaExtensoes.push_back(linha);
+
+        // Remove espaços em branco no início e fim da linha
+        linha.erase(0, linha.find_first_not_of(" \t\r\n"));
+        linha.erase(linha.find_last_not_of(" \t\r\n") + 1);
+
+        // Ignora linhas vazias
+        if (linha.empty())
+            continue;
+
+        // Verifica se é uma seção
+        if (linha.front() == '[' && linha.back() == ']')
+        {
+            secaoAtual = linha.substr(1, linha.length() - 2);
+            continue;
+        }
+
+        // Adiciona item à lista apropriada baseado na seção atual
+        if (secaoAtual == "extensoes")
+        {
+            listaExtensoes.push_back(linha);
+        }
+        else if (secaoAtual == "pastas_ignoradas")
+        {
+            listaPastasIgnoradas.push_back(linha);
+        }
     }
+
+    // Verifica se pelo menos a seção de extensões foi encontrada
+    if (listaExtensoes.empty())
+    {
+        cout << "Nenhuma extensão encontrada na seção [extensoes]" << endl;
+        return false;
+    }
+
     return true;
 }
 
@@ -109,7 +148,7 @@ void buscarDiretorioIterativo(const fs::path &caminhoBase)
         try
         {
             fs::directory_iterator iter(caminhoAtual);
-            nTotalDiretorios++;
+            //nTotalDiretorios++;
 
             for (const auto &p : iter)
             {
@@ -117,9 +156,20 @@ void buscarDiretorioIterativo(const fs::path &caminhoBase)
                 {
                     contalinhas(p);
                 }
-                else if (fs::is_directory(p))
+                else if (fs::is_directory(p) && !deveIgnorarPasta(p))
                 {
+                    cout << "Diretório encontrado: " << p.path() << endl;
+                    nTotalDiretorios++;
+                    // Adiciona o diretório à pilha para busca posterior
                     pastas.push(p);
+                }
+                else if (fs::is_directory(p) && deveIgnorarPasta(p))
+                {
+                    cout << "Ignorando diretório: " << p.path() << endl;
+                }
+                else
+                {
+                    //pastas.push(p);
                 }
             }
         }
