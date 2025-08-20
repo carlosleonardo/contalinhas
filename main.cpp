@@ -15,6 +15,7 @@ using namespace std;
 namespace fs = std::filesystem;
 
 long int nLinhasTotais;
+long nTotalLOC;
 const string filtro = "filtro.ini";
 
 long int nTotalArquivos;
@@ -115,6 +116,7 @@ void contalinhas(const fs::path &caminho)
     cout << "Contando linhas de " << caminho << endl;
     ifstream inp(caminho.c_str(), ios::in);
     long int nLinhas = 0;
+    long int nLinhaVazia = 0;
 
     if (!inp)
     {
@@ -126,11 +128,18 @@ void contalinhas(const fs::path &caminho)
     while (!inp.eof())
     {
         getline(inp, linha);
+        // Remove espaços em branco no início e fim da linha
+        linha.erase(0, linha.find_first_not_of(" \t\r\n"));
+        linha.erase(linha.find_last_not_of(" \t\r\n") + 1);
+        // Ignora linhas vazias
+        if (linha.empty())
+            nLinhaVazia++;
         nLinhas++;
     }
     cout << "Linhas do arquivo: " << nLinhas << endl;
     nTotalArquivos++;
     nLinhasTotais += nLinhas;
+    nTotalLOC += (nLinhas - nLinhaVazia);
 }
 
 void buscarDiretorioIterativo(const fs::path &caminhoBase)
@@ -148,7 +157,6 @@ void buscarDiretorioIterativo(const fs::path &caminhoBase)
         try
         {
             fs::directory_iterator iter(caminhoAtual);
-            //nTotalDiretorios++;
 
             for (const auto &p : iter)
             {
@@ -217,6 +225,7 @@ int main(int argc, char **argv)
             nLinhasTotais = 0;
             nTotalArquivos = 0;
             nTotalDiretorios = 0;
+            nTotalLOC = 0;
 
             const auto inicio = chrono::system_clock::now();
             buscarDiretorioIterativo(argv[1]);
@@ -229,7 +238,8 @@ int main(int argc, char **argv)
             cout << "Total de Arquivos: " << nTotalArquivos << "." << endl;
             cout << "Total de Diretórios: " << nTotalDiretorios << "." << endl;
         }
-        cout << "Total LOC: " << nLinhasTotais << endl;
+        cout << "Total Linhas: " << nLinhasTotais << endl;
+        cout << "Total LOC: " << nTotalLOC << endl;
     }
 
     return 0;
