@@ -95,15 +95,10 @@ bool leFiltros()
 bool possuiExtensaoFiltrada(const fs::path &c)
 {
     const auto extensao = c.extension();
-    for (const auto &ext : listaExtensoes)
-    {
-        if (extensao == ("." + ext))
-        {
-            return true;
-        }
-    }
-
-    return false;
+    return std::any_of(listaExtensoes.begin(), listaExtensoes.end(),
+                [&extensao](const string &ext) {
+                    return extensao == ("." + ext);
+                });
 }
 
 void contalinhas(const fs::path &caminho)
