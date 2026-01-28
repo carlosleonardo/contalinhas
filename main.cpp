@@ -7,10 +7,6 @@
 #include <chrono>
 #include <algorithm>
 
-#ifdef WIN32
-#include <windows.h>
-#endif
-
 using namespace std;
 namespace fs = std::filesystem;
 
@@ -203,10 +199,7 @@ void buscarDiretorio(const fs::path &caminho)
 
 int main(int argc, char **argv)
 {
-#ifdef WIN32
-    SetConsoleOutputCP(CP_UTF8);
-    SetConsoleCP(CP_UTF8);
-#endif
+    setlocale(LC_ALL, "pt_BR.UTF-8");
     if (argc == 1)
     {
         cout << "Forma de uso: " << argv[0] << " <diretório-base>" << "\n";
