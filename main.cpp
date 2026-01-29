@@ -199,7 +199,7 @@ void buscarDiretorio(const fs::path &caminho)
 
 int main(int argc, char **argv)
 {
-    setlocale(LC_ALL, "pt_BR.UTF-8");
+    setlocale(LC_ALL, ".UTF-8");
     if (argc == 1)
     {
         cout << "Forma de uso: " << argv[0] << " <diretório-base>" << "\n";
