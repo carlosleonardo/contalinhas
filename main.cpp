@@ -49,13 +49,14 @@ bool leFiltros() {
         // Recupera uma extensão por linha
         getline(inp, linha);
 
+        // Ignora linhas vazias
+        if (linha.empty())
+            continue;
+
         // Remove espaços em branco no início e fim da linha
         linha.erase(0, linha.find_first_not_of(" \t\r\n"));
         linha.erase(linha.find_last_not_of(" \t\r\n") + 1);
 
-        // Ignora linhas vazias
-        if (linha.empty())
-            continue;
 
         // Verifica se é uma seção
         if (linha.front() == '[' && linha.back() == ']') {
@@ -89,7 +90,7 @@ bool possuiExtensaoFiltrada(const fs::path &c) {
                        });
 }
 
-void contalinhas(const fs::path &caminho) {
+void contaLinhas(const fs::path &caminho) {
     if (!possuiExtensaoFiltrada(caminho)) {
         return;
     }
@@ -107,12 +108,16 @@ void contalinhas(const fs::path &caminho) {
     string linha;
     while (!inp.eof()) {
         getline(inp, linha);
+
+        if (linha.empty()) {
+            nLinhaVazia++;
+            nLinhas++;
+            continue;
+        }
+
         // Remove espaços em branco no início e fim da linha
         linha.erase(0, linha.find_first_not_of(" \t\r\n"));
         linha.erase(linha.find_last_not_of(" \t\r\n") + 1);
-        // Ignora linhas vazias
-        if (linha.empty())
-            nLinhaVazia++;
         nLinhas++;
     }
     cout << "\nLinhas do arquivo: " << nLinhas;
@@ -121,7 +126,7 @@ void contalinhas(const fs::path &caminho) {
     nTotalLOC += (nLinhas - nLinhaVazia);
 }
 
-void exibir_progresso(const string &p, const string &acao = "Buscando diretório") {
+void exibir_progresso(const string &p, const string &acao = "Buscando diretório ") {
     // Exibe a mensagem limpando a  linha anterior, preenchendo com espaços e retornando o cursor para o início da linha
     const auto espacos = string(obter_largura_terminal(), ' '); // Ajuste o número de espaços conforme necessário
     cout << "\r" << espacos << "\r"; // Limpa a linha anterior
@@ -145,7 +150,7 @@ void buscarDiretorioIterativo(const fs::path &caminhoBase) {
 
             for (const auto &p: iter) {
                 if (fs::is_regular_file(p)) {
-                    contalinhas(p);
+                    contaLinhas(p);
                 } else if (fs::is_directory(p) && !deveIgnorarPasta(p)) {
                     exibir_progresso(p.path().string());
                     nTotalDiretorios++;
@@ -166,7 +171,7 @@ void buscarDiretorio(const fs::path &caminho) {
 
     for (const auto &p: iter) {
         if (fs::is_regular_file(p)) {
-            contalinhas(p);
+            contaLinhas(p);
         } else if (fs::is_directory(p)) {
             buscarDiretorio(p);
         }
@@ -194,10 +199,11 @@ int main(int argc, char **argv) {
             const auto lapsoTempo = chrono::duration_cast<chrono::seconds>(fim - inicio).count();
 
             cout << endl;
+            std::cout << "###### Busca concluída! ######" << std::endl;
             cout << "Tempo gasto: " << lapsoTempo << " segundos. " << endl;
             cout << "Total de Arquivos: " << nTotalArquivos << "." << endl;
             cout << "Total de Diretórios: " << nTotalDiretorios << "." << endl;
-            cout << "Total Linhas: " << nLinhasTotais << endl;
+            cout << "Total de Linhas: " << nLinhasTotais << endl;
             cout << "Total LOC: " << nTotalLOC << endl;
         } else {
             cout << "O diretório " << argv[1] << " não existe." << endl;
