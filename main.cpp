@@ -23,8 +23,7 @@ list<string> listaExtensoes;
 list<string> listaPastasIgnoradas;
 
 // Verifica se a pasta deve ser ignorada
-bool deveIgnorarPasta(const fs::path &caminhoPasta)
-{
+bool deveIgnorarPasta(const fs::path &caminhoPasta) {
     string nomePasta = caminhoPasta.filename().string();
     return std::any_of(listaPastasIgnoradas.begin(), listaPastasIgnoradas.end(),
                        [&nomePasta](const string &pastaIgnorada) {
@@ -32,24 +31,21 @@ bool deveIgnorarPasta(const fs::path &caminhoPasta)
                        });
 }
 
-bool leFiltros()
-{
+bool leFiltros() {
     ifstream inp(filtro);
 
-    if (!inp)
-    {
+    if (!inp) {
         cout << "Não pude abrir arquivo " << filtro << endl;
         cout << "Se não existir, crie-o no diretório atual e depois insira [extensoes] seguido "
                 "por extensões de arquivo para filtrar, uma por linha."
-             << endl;
+                << endl;
         return false;
     }
 
     string linha;
     string secaoAtual;
 
-    while (!inp.eof())
-    {
+    while (!inp.eof()) {
         // Recupera uma extensão por linha
         getline(inp, linha);
 
@@ -62,26 +58,21 @@ bool leFiltros()
             continue;
 
         // Verifica se é uma seção
-        if (linha.front() == '[' && linha.back() == ']')
-        {
+        if (linha.front() == '[' && linha.back() == ']') {
             secaoAtual = linha.substr(1, linha.length() - 2);
             continue;
         }
 
         // Adiciona item à lista apropriada baseado na seção atual
-        if (secaoAtual == "extensoes")
-        {
+        if (secaoAtual == "extensoes") {
             listaExtensoes.push_back(linha);
-        }
-        else if (secaoAtual == "pastas_ignoradas")
-        {
+        } else if (secaoAtual == "pastas_ignoradas") {
             listaPastasIgnoradas.push_back(linha);
         }
     }
 
     // Verifica se pelo menos a seção de extensões foi encontrada
-    if (listaExtensoes.empty())
-    {
+    if (listaExtensoes.empty()) {
         cout << "Nenhuma extensão encontrada na seção [extensoes]" << endl;
         return false;
     }
@@ -90,19 +81,16 @@ bool leFiltros()
 }
 
 // Vê se o arquivo possui a extensão permitida
-bool possuiExtensaoFiltrada(const fs::path &c)
-{
+bool possuiExtensaoFiltrada(const fs::path &c) {
     const auto extensao = c.extension();
     return std::any_of(listaExtensoes.begin(), listaExtensoes.end(),
-                [&extensao](const string &ext) {
-                    return extensao == ("." + ext);
-                });
+                       [&extensao](const string &ext) {
+                           return extensao == ("." + ext);
+                       });
 }
 
-void contalinhas(const fs::path &caminho)
-{
-    if (!possuiExtensaoFiltrada(caminho))
-    {
+void contalinhas(const fs::path &caminho) {
+    if (!possuiExtensaoFiltrada(caminho)) {
         return;
     }
 
@@ -111,15 +99,13 @@ void contalinhas(const fs::path &caminho)
     long int nLinhas = 0;
     long int nLinhaVazia = 0;
 
-    if (!inp)
-    {
+    if (!inp) {
         cout << "Não foi possível abrir " << caminho << endl;
         return;
     }
 
     string linha;
-    while (!inp.eof())
-    {
+    while (!inp.eof()) {
         getline(inp, linha);
         // Remove espaços em branco no início e fim da linha
         linha.erase(0, linha.find_first_not_of(" \t\r\n"));
@@ -135,7 +121,7 @@ void contalinhas(const fs::path &caminho)
     nTotalLOC += (nLinhas - nLinhaVazia);
 }
 
-void exibir_progresso(const string &p, const string &acao = "Buscando diretório"){
+void exibir_progresso(const string &p, const string &acao = "Buscando diretório") {
     // Exibe a mensagem limpando a  linha anterior, preenchendo com espaços e retornando o cursor para o início da linha
     const auto espacos = string(obter_largura_terminal(), ' '); // Ajuste o número de espaços conforme necessário
     cout << "\r" << espacos << "\r"; // Limpa a linha anterior
@@ -144,79 +130,58 @@ void exibir_progresso(const string &p, const string &acao = "Buscando diretório
     cout << msg << flush;
 }
 
-void buscarDiretorioIterativo(const fs::path &caminhoBase)
-{
+void buscarDiretorioIterativo(const fs::path &caminhoBase) {
     exibir_progresso(caminhoBase.string(), "Iniciando busca no diretório: ");
     stack<fs::path> pastas;
 
     pastas.push(caminhoBase);
 
-    while (!pastas.empty())
-    {
+    while (!pastas.empty()) {
         fs::path caminhoAtual = pastas.top();
         pastas.pop();
 
-        try
-        {
+        try {
             fs::directory_iterator iter(caminhoAtual);
 
-            for (const auto &p : iter)
-            {
-                if (fs::is_regular_file(p))
-                {
+            for (const auto &p: iter) {
+                if (fs::is_regular_file(p)) {
                     contalinhas(p);
-                }
-                else if (fs::is_directory(p) && !deveIgnorarPasta(p))
-                {
+                } else if (fs::is_directory(p) && !deveIgnorarPasta(p)) {
                     exibir_progresso(p.path().string());
                     nTotalDiretorios++;
                     pastas.push(p);
-                }
-                else if (fs::is_directory(p) && deveIgnorarPasta(p))
-                {
+                } else if (fs::is_directory(p) && deveIgnorarPasta(p)) {
                     exibir_progresso(p.path().string(), "Ignorando diretório: ");
                 }
-
             }
-        }
-        catch (std::exception &e)
-        {
+        } catch (std::exception &e) {
             cerr << e.what() << endl;
         }
     }
 }
 
-void buscarDiretorio(const fs::path &caminho)
-{
+void buscarDiretorio(const fs::path &caminho) {
     cout << "Buscando diretório " << caminho << endl;
     fs::directory_iterator iter(caminho);
 
-    for (const auto &p : iter)
-    {
-        if (fs::is_regular_file(p))
-        {
+    for (const auto &p: iter) {
+        if (fs::is_regular_file(p)) {
             contalinhas(p);
-        }
-        else if (fs::is_directory(p))
-        {
+        } else if (fs::is_directory(p)) {
             buscarDiretorio(p);
         }
     }
 }
 
-int main(int argc, char **argv)
-{
+int main(int argc, char **argv) {
     setlocale(LC_ALL, ".UTF-8");
-    if (argc == 1)
-    {
+    if (argc == 1) {
         cout << "Forma de uso: " << argv[0] << " <diretório-base>" << "\n";
         return -1;
     }
 
-    if (leFiltros())
-    {
-        if (fs::exists(argv[1]))
-        {
+    if (leFiltros()) {
+        if (fs::exists(argv[1])) {
             nLinhasTotais = 0;
             nTotalArquivos = 0;
             nTotalDiretorios = 0;
@@ -232,9 +197,11 @@ int main(int argc, char **argv)
             cout << "Tempo gasto: " << lapsoTempo << " segundos. " << endl;
             cout << "Total de Arquivos: " << nTotalArquivos << "." << endl;
             cout << "Total de Diretórios: " << nTotalDiretorios << "." << endl;
+            cout << "Total Linhas: " << nLinhasTotais << endl;
+            cout << "Total LOC: " << nTotalLOC << endl;
+        } else {
+            cout << "O diretório " << argv[1] << " não existe." << endl;
         }
-        cout << "Total Linhas: " << nLinhasTotais << endl;
-        cout << "Total LOC: " << nTotalLOC << endl;
     }
 
     return 0;
