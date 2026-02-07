@@ -7,6 +7,8 @@
 #include <chrono>
 #include <algorithm>
 
+#include "terminal.h"
+
 using namespace std;
 namespace fs = std::filesystem;
 
@@ -104,7 +106,7 @@ void contalinhas(const fs::path &caminho)
         return;
     }
 
-    cout << "Contando linhas de " << caminho << endl;
+    cout << "\nContando linhas de " << caminho.string() << " ..." << flush;
     ifstream inp(caminho.c_str(), ios::in);
     long int nLinhas = 0;
     long int nLinhaVazia = 0;
@@ -127,15 +129,24 @@ void contalinhas(const fs::path &caminho)
             nLinhaVazia++;
         nLinhas++;
     }
-    cout << "Linhas do arquivo: " << nLinhas << endl;
+    cout << "\nLinhas do arquivo: " << nLinhas;
     nTotalArquivos++;
     nLinhasTotais += nLinhas;
     nTotalLOC += (nLinhas - nLinhaVazia);
 }
 
+void exibir_progresso(const string &p, const string &acao = "Buscando diretório"){
+    // Exibe a mensagem limpando a  linha anterior, preenchendo com espaços e retornando o cursor para o início da linha
+    const auto espacos = string(obter_largura_terminal(), ' '); // Ajuste o número de espaços conforme necessário
+    cout << "\r" << espacos << "\r"; // Limpa a linha anterior
+
+    const auto msg = "\r" + acao + p + " ...";
+    cout << msg << flush;
+}
+
 void buscarDiretorioIterativo(const fs::path &caminhoBase)
 {
-    cout << "Buscando diretório " << caminhoBase << endl;
+    exibir_progresso(caminhoBase.string(), "Iniciando busca no diretório: ");
     stack<fs::path> pastas;
 
     pastas.push(caminhoBase);
@@ -157,19 +168,15 @@ void buscarDiretorioIterativo(const fs::path &caminhoBase)
                 }
                 else if (fs::is_directory(p) && !deveIgnorarPasta(p))
                 {
-                    cout << "Diretório encontrado: " << p.path() << endl;
+                    exibir_progresso(p.path().string());
                     nTotalDiretorios++;
-                    // Adiciona o diretório à pilha para busca posterior
                     pastas.push(p);
                 }
                 else if (fs::is_directory(p) && deveIgnorarPasta(p))
                 {
-                    cout << "Ignorando diretório: " << p.path() << endl;
+                    exibir_progresso(p.path().string(), "Ignorando diretório: ");
                 }
-                else
-                {
-                    //pastas.push(p);
-                }
+
             }
         }
         catch (std::exception &e)
