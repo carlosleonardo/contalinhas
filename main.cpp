@@ -54,12 +54,15 @@ bool leFiltros() {
             continue;
 
         // Remove espaços em branco no início e fim da linha
-        linha.erase(0, linha.find_first_not_of(" \t\r\n"));
-        linha.erase(linha.find_last_not_of(" \t\r\n") + 1);
-
+        const auto inicio = linha.find_first_not_of(" \t\r\n");
+        if (inicio == string::npos) {
+            continue; // Linha só tem espaços em branco
+        }
+        const auto fim = linha.find_last_not_of(" \t\r\n");
+        linha = linha.substr(inicio, fim - inicio + 1);
 
         // Verifica se é uma seção
-        if (linha.front() == '[' && linha.back() == ']') {
+        if (!linha.empty() && linha.front() == '[' && linha.back() == ']') {
             secaoAtual = linha.substr(1, linha.length() - 2);
             continue;
         }
@@ -116,8 +119,14 @@ void contaLinhas(const fs::path &caminho) {
         }
 
         // Remove espaços em branco no início e fim da linha
-        linha.erase(0, linha.find_first_not_of(" \t\r\n"));
-        linha.erase(linha.find_last_not_of(" \t\r\n") + 1);
+        const auto inicio = linha.find_first_not_of(" \t\r\n");
+        if (inicio == string::npos) {
+            nLinhaVazia++;
+            nLinhas++;
+            continue; // Linha só tem espaços em branco
+        }
+        const auto fim = linha.find_last_not_of(" \t\r\n");
+        linha = linha.substr(inicio, fim - inicio + 1);
         nLinhas++;
     }
     cout << "\nLinhas do arquivo: " << nLinhas;
