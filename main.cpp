@@ -46,10 +46,8 @@ bool leFiltros() {
     string secaoAtual;
 
     while (!inp.eof()) {
-        // Recupera uma extensão por linha
         getline(inp, linha);
 
-        // Ignora linhas vazias
         if (linha.empty())
             continue;
 
@@ -61,13 +59,11 @@ bool leFiltros() {
         const auto fim = linha.find_last_not_of(" \t\r\n");
         linha = linha.substr(inicio, fim - inicio + 1);
 
-        // Verifica se é uma seção
         if (!linha.empty() && linha.front() == '[' && linha.back() == ']') {
             secaoAtual = linha.substr(1, linha.length() - 2);
             continue;
         }
 
-        // Adiciona item à lista apropriada baseado na seção atual
         if (secaoAtual == "extensoes") {
             listaExtensoes.push_back(linha);
         } else if (secaoAtual == "pastas_ignoradas") {
@@ -75,7 +71,6 @@ bool leFiltros() {
         }
     }
 
-    // Verifica se pelo menos a seção de extensões foi encontrada
     if (listaExtensoes.empty()) {
         cout << "Nenhuma extensão encontrada na seção [extensoes]" << endl;
         return false;
@@ -84,7 +79,6 @@ bool leFiltros() {
     return true;
 }
 
-// Vê se o arquivo possui a extensão permitida
 bool possuiExtensaoFiltrada(const fs::path &c) {
     const auto extensao = c.extension();
     return std::any_of(listaExtensoes.begin(), listaExtensoes.end(),
