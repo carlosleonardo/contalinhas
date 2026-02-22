@@ -402,3 +402,4 @@ FodyWeavers.xsd
 *.sln.iml
 /cmake-build-debug-event-trace/
 /.vscode/
+.idea/

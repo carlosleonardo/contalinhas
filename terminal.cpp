@@ -14,7 +14,7 @@
 std::size_t obter_largura_terminal() {
 #ifdef _WIN32
     CONSOLE_SCREEN_BUFFER_INFO csbi;
-    if (GetConsoleScreenBufferInfo(GetStdHandle(STD_OUTPUT_HANDLE), &csbi)==FALSE) {;
+    if (GetConsoleScreenBufferInfo(GetStdHandle(STD_OUTPUT_HANDLE), &csbi)==FALSE) {
         return 80; // Valor padrão se não conseguir obter informações do console
     }
     return csbi.srWindow.Right - csbi.srWindow.Left + 1;
