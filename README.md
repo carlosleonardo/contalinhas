@@ -2,37 +2,47 @@
 
 1. Para iniciar, instale:
 
--   Visual Studio Code ou CLion IDE;
--   CMake Tools para VSCode;
--   C++ Extensions para VSCode;
--   CMake 3.12 no mínimo;
--   Git
+- Visual Studio Code ou CLion IDE;
+- CMake Tools para VSCode;
+- C++ Extensions para VSCode;
+- CMake 3.12 no mínimo;
+- Git
 
-  2. Instruções para clonar e compilar o projeto no VSCode:
+2. Instruções para clonar e compilar o projeto no VSCode:
 
-      2.1. Acione Ctrl + Shift + P e digite "Git: Clone" para clonar o repositório:
+2.1. Acione Ctrl + Shift + P e digite "Git: Clone" para clonar o repositório:
 
-     -   https://github.com/carlosleonardo/contalinhas.git
+- https://github.com/carlosleonardo/contalinhas.git
 
-      2.2. Abra a pasta clonada no VSCode e abra o terminal integrado (Ctrl + `). Verifiqq se você está na pasta correta:
+2.2. Abra a pasta clonada no VSCode e abra o terminal integrado (Ctrl + `). Verifiqq se você está na pasta
+correta:
 
-     -   $ cd contalinhas
+```bash
+cd contalinhas
+```
 
-     2.3. Configure o cmake para gerar os arquivos de build:
+2.3. Configure o cmake para gerar os arquivos de build:
 
-     -   $ cmake -S . -B build
+```bash
+cmake -S . -B build
+```
 
-     2.4. Dê um build no projeto:
+Ou, se preferir, use o CMake Tools do VSCode para configurar o projeto.
 
-     -   $ cmake --build build
+2.4. Dê um build no projeto:
 
-  3. Instruções para o CLion:
+```bash
+ cmake --build build
+```
 
-     3.1. Abra o CLion e selecione "File - New Project From Version Control".
+3. Instruções para o CLion:
 
-     3.2. Cole a URL do repositório:
-     https://github.com/carlosleonardo/contalinhas.git
-    
-     3.3. Ao aparecer a janela de configuração do projeto, selecione o diretório onde o projeto será salvo e clique em "Clone".
-   
-     3.4. O CLion irá abrir o projeto e configurar o CMake automaticamente. Confirme a configuração apresentada
+   3.1. Abra o CLion e selecione "File - New Project From Version Control".
+
+   3.2. Cole a URL do repositório:
+   https://github.com/carlosleonardo/contalinhas.git
+
+   3.3. Ao aparecer a janela de configuração do projeto, selecione o diretório onde o projeto será salvo e clique em "
+   Clone".
+
+   3.4. O CLion irá abrir o projeto e configurar o CMake automaticamente. Confirme a configuração apresentada
